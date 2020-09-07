@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="java-fund:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts</output-path>
+    <root id="archive" name="java-fund.jar">
+      <element id="module-output" name="java-fund" />
+    </root>
+  </artifact>
+</component>
