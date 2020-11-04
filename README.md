@@ -34,6 +34,8 @@
 
 **Nightmare!**
 
+[Файл с выполненным заданием: Git_Task_Nigtmare.txt](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/git-task/Git_Task_Nigtmare.txt)
+
 1. Создайте новый репозиторий на github.com и склонируйте его локально на свой компьютер.
     
     ```
@@ -234,10 +236,9 @@
 	git push --set-upstream origin master
     ```
     
-https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/git-task/Git_Task_Nigtmare.txt
 
-    ```
 
+    
 2. **Create a Gatsby site from a Gatsby starter.**
 
    Get your Gatsby blog set up in a single command:
