@@ -44,27 +44,26 @@
 - Создайте ветку feature и добавьте в неё два коммита
 - Смержите ветку feature в master
 - Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
-
-	The ship glides gently on the waves
-	As day turns into night
+	- The ship glides gently on the waves
+	- As day turns into night
 
 - Выполните коммит.
 - Перейдите в master. Создайте там файл arrows.txt и добавьте следующий текст:
-	One thousand burning arrows
-	Fill the starlit sky
+	- One thousand burning arrows
+	- Fill the starlit sky
 - Выполните коммит.
 - Смержите feature в master решив конфликт: сохраните все 4 строки в файле arrows.txt в порядке их добавления в пунктах 4 и 5.
 - Создайте ветку storm и добавьте коммит в файл storm.txt:
-	Twenty ships with Norsemen braves
-	Riding the northern wind
+	- Twenty ships with Norsemen braves
+	- Riding the northern wind
 - Добавьте еще 2 строки в storm.txt и сделайте еще один коммит:
-	They left their shores at early dawn
-	As a red sun was rising in the east
+	- They left their shores at early dawn
+	- As a red sun was rising in the east
 - Вернитесь в master и создайте файл pursuit.txt с текстом ниже:
-	The warming sun returns again
-	And melts away the snow
-	The sea is freed from icy chains
-	Winter is letting go
+	- The warming sun returns again
+	- And melts away the snow
+	- The sea is freed from icy chains
+	- Winter is letting go
 - Выполните коммит.
 - Отметьте коммит тегом session1 и перейдите в ветку storm
 - Сделайте rebase ветки storm так чтобы она содержала последний коммит из мастера.
@@ -182,7 +181,7 @@ https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/m
 
 At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your Gatsby site, see our [plugins](https://gatsbyjs.com/plugins/) and [the official tutorial](https://www.gatsbyjs.com/tutorial/).
 
-## 🎓 Learning Gatsby
+##  Learning Gatsby
 
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
