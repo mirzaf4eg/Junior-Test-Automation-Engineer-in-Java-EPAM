@@ -21,14 +21,18 @@
   <a href="https://careers.epam.by/training/training-listings/training.2332/">Junior Test Automation Engineer in Java</a>
 </h3>
 
-## Содержание репозитория:
+## Содержимое репозитория:
 
-- [Version Control with Git](#version-control-with-git)
-- [Learning Gatsby](#-learning-gatsby)
-- [Migration Guides](#-migration-guides)
-- [How to Contribute](#-how-to-contribute)
-- [License](#memo-license)
-- [Thanks to Our Contributors and Sponsors](#-thanks)
+- [Version Control with Git](#-version-control-with-git)
+- [Maven build tool](#-maven-build-tool)
+- [Continuous Integration with Jenkins](#-continuous-integration-with-jenkins)
+- [Java Fundamentals. Main Task]
+- [Java Fundamentals. Optional Task First]
+- [Java Fundamentals. Optional Task Second]
+- [Java Classes. Main Task]
+- [Clean Code]
+- [Java Collections. Main Task]
+- [Java Collections. Optional Task]
 
 ## Version Control with Git
 
@@ -236,33 +240,6 @@
 	git push --set-upstream origin master
     ```
     
-
-
-    
-2. **Create a Gatsby site from a Gatsby starter.**
-
-   Get your Gatsby blog set up in a single command:
-
-   ```shell
-   # create a new Gatsby site using the default starter
-   gatsby new my-blazing-fast-site
-   ```
-
-3. **Start the site in `develop` mode.**
-
-   Next, move into your new site’s directory and start it up:
-
-   ```shell
-   cd my-blazing-fast-site/
-   gatsby develop
-   ```
-
-4. **Open the source code and start editing!**
-
-   Your site is now running at `http://localhost:8000`. Open the `my-blazing-fast-site` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes, and the browser will update in real time!
-
-At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your Gatsby site, see our [plugins](https://gatsbyjs.com/plugins/) and [the official tutorial](https://www.gatsbyjs.com/tutorial/).
-
 ##  Learning Gatsby
 
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
