@@ -9,7 +9,7 @@
 </h1>
 
 <h3 align="center">
-  ⚛️ 📄 🚀
+   <img src="https://user-images.githubusercontent.com/66875374/98164684-b7899500-1ef5-11eb-82ef-6340a335ee3d.png" width="45%"></img> 
 </h3>
 <h3 align="center">
   Fast in every way that matters
