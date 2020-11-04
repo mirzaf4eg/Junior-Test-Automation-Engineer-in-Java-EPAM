@@ -12,59 +12,151 @@
    <img src="https://user-images.githubusercontent.com/66875374/98164684-b7899500-1ef5-11eb-82ef-6340a335ee3d.png" width="45%"></img> 
 </h3>
 <h3 align="center">
-  EPAM. Junior Test Automation Engineer in Java
+  В моем коде прошу никого не винить. Я честно и добросовестно слизал все с просторов интернета. Я очень старался!
 </h3>
 <p align="center">
   Практические задания первого этапа курса.
 
 <h3 align="center">
   <a href="https://careers.epam.by/training/training-listings/training.2332/">Junior Test Automation Engineer in Java</a>
-  <span> · </span>
 </h3>
 
-Gatsby is a modern web framework for blazing fast websites.
+## Содержание репозитория:
 
-- **Go Beyond Static Websites.** Get all the benefits of static websites with none of the
-  limitations. Gatsby sites are fully functional React apps so you can create high-quality,
-  dynamic web apps, from blogs to e-commerce sites to user dashboards.
-
-- **Use a Modern Stack for Every Site.** No matter where the data comes from, Gatsby sites are
-  built using React and GraphQL. Build a uniform workflow for you and your team, regardless of
-  whether the data is coming from the same backend.
-
-- **Load Data From Anywhere.** Gatsby pulls in data from any data source, whether it’s Markdown
-  files, a headless CMS like Contentful or WordPress, or a REST or GraphQL API. Use source plugins
-  to load your data, then develop using Gatsby’s uniform GraphQL interface.
-
-- **Performance Is Baked In.** Ace your performance audits by default. Gatsby automates code
-  splitting, image optimization, inlining critical styles, lazy-loading, prefetching resources,
-  and more to ensure your site is fast �?no manual tuning required.
-
-- **Host at Scale for Pennies.** Gatsby sites don’t require servers so you can host your entire
-  site on a CDN for a fraction of the cost of a server-rendered site. Many Gatsby sites can be
-  hosted entirely free on services like GitHub Pages and Netlify.
-
-[**Learn how to use Gatsby for your next project.**](https://www.gatsbyjs.com/docs/)
-
-## What’s In This Document
-
-- [Get Up and Running in 5 Minutes](#-get-up-and-running-in-5-minutes)
+- [Version Control with Git](#-get-up-and-running-in-5-minutes)
 - [Learning Gatsby](#-learning-gatsby)
 - [Migration Guides](#-migration-guides)
 - [How to Contribute](#-how-to-contribute)
 - [License](#memo-license)
 - [Thanks to Our Contributors and Sponsors](#-thanks)
 
-## 🚀 Get Up and Running in 5 Minutes
+## Version Control with Git
 
-You can get a new Gatsby site up and running on your local dev environment in 5 minutes with these four steps:
+**Nightmare!**
 
-1. **Install the Gatsby CLI.**
+- Создайте новый репозиторий на github.com и склонируйте его локально на свой компьютер.
+- Создайте файл названием song.txt и поместите туда половину текста любимой песни.
+- Сделайте коммит с названием "add first half of my favorite song" и отправьте его на сервер.
+- Убедитесь что на github есть файл song.txt с текстом песни.
+- Используя веб-интерфейс гитхаба добавьте вторую половину текста песни и сделайте коммит с названием "finish my song".
+- В локальном репозитории сделайте pull и убедитесь что коммит, который вы создали на github, подтянулся и у вас полный текст песни.
+- Добавьте в проект файл .gitignore и настройте так чтобы скрыть файлы с расширением .db, .log и директории с названиями target или bin.
+- Создайте ветку feature и добавьте в неё два коммита
+- Смержите ветку feature в master
+- Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
 
-   ```shell
-   npm install -g gatsby-cli
+	The ship glides gently on the waves
+	As day turns into night
 
-   ```
+- Выполните коммит.
+- Перейдите в master. Создайте там файл arrows.txt и добавьте следующий текст:
+	One thousand burning arrows
+	Fill the starlit sky
+- Выполните коммит.
+- Смержите feature в master решив конфликт: сохраните все 4 строки в файле arrows.txt в порядке их добавления в пунктах 4 и 5.
+- Создайте ветку storm и добавьте коммит в файл storm.txt:
+	Twenty ships with Norsemen braves
+	Riding the northern wind
+- Добавьте еще 2 строки в storm.txt и сделайте еще один коммит:
+	They left their shores at early dawn
+	As a red sun was rising in the east
+- Вернитесь в master и создайте файл pursuit.txt с текстом ниже:
+	The warming sun returns again
+	And melts away the snow
+	The sea is freed from icy chains
+	Winter is letting go
+- Выполните коммит.
+- Отметьте коммит тегом session1 и перейдите в ветку storm
+- Сделайте rebase ветки storm так чтобы она содержала последний коммит из мастера.
+- Сделайте push вашего репозитория и убедитесь, что все коммиты есть на github.
+- Сделайте новый репозиторий на github.
+- Смените remote в локальном репозитории так, чтобы fetch и push шел на новый репозиторий который был создан в предыдущем шаге.
+- Сделайте push и убедитесь, что второй репозиторий на гитхабе выглядит так же, как и первый.
+- Верните настройки remote в исходное состояние: пул и пуш первого локального репозитория ведет в один удаленный репозиторий на гитхабе.
+
+https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/git-task/Git_Task_Nigtmare.txt
+
+    ```cd /d/EPAM/
+	git clone git@github.com:mirzaf4eg/git-demo.git
+	cd /d/EPAM/git-demo
+	echo "Come on, come on, turn the radio on" >> song.txt
+	echo "It's Friday night and I won't be long" >> song.txt
+	echo "Gotta do my hair, I put my make up on" >> song.txt
+	echo "It's Friday night and I won't be long" >> song.txt
+	git add song.txt
+	git commit -m "add first half of my favorite song"
+	git push
+	# edit song.txt in remout git repo
+	# >> Till I hit the dance floor
+	# >> Hit the dance floor!
+	# >> I got all I need
+	# >> No I ain't got cash!
+	# >> No I ain't got cash!
+	# >> But I got you baby
+	git pull
+
+	echo "*.db" >> .gitignore
+	echo "*.log" >> .gitignore
+	echo "/target" >> .gitignore
+	echo "/bin" >> .gitignore
+	git checkout -b feature
+	echo "Baby I don't need dollar bills to have fun tonight (I love cheap thrills)" >> song.txt
+	echo "Baby I don't need dollar bills to have fun tonight (I love cheap thrills)" >> song.txt
+	echo "I got all I need" >> song.txt
+	git add song.txt
+	git commit -m "feature commit one"
+	echo "But I don't need no money" >> song.txt
+	echo "As long as I can feel the beat" >> song.txt
+	echo "I don't need no money" >> song.txt
+	echo "As long as I keep dancing" >> song.txt
+	git add song.txt
+	git commit -m "feature commit two"
+	git checkout master
+	git merge feature
+	git checkout feature
+	echo "The ship glides gently on the waves" >> arrows.txt
+	echo "As day turns into night" >> arrows.txt
+	git add arrows.txt
+	git commit -m "feature commit post added arrow.txt"
+	git checkout master
+	echo "One thousand burning arrows" >> arrows.txt
+	echo "Fill the starlit sky" >> arrows.txt
+	git add arrows.txt
+	git commit -m "master commit post added arrow.txt"
+	git merge feature
+	# edit arrows.txt in github.com
+	vi arrows.txt
+	git add arrows.txt
+	git commit -m "edit conflict in arrow.txt"
+
+	git checkout -b storm
+	echo "Twenty ships with Norsemen braves" >> storm.txt
+	echo "Riding the northern wind" >> storm.txt
+	git add storm.txt
+	git commit -m "storm commit one"
+	echo "They left their shores at early dawn" >> storm.txt
+	echo "As a red sun was rising in the east" >> storm.txt
+	git add storm.txt
+	git commit -m "storm commit two"
+	git checkout master
+	echo "The warming sun returns again" >> pursuit.txt
+	echo "And melts away the snow" >> pursuit.txt
+	echo "The sea is freed from icy chains" >> pursuit.txt
+	echo "Winter is letting go" >> pursuit.txt
+	git add pursuit.txt
+	git commit -m "commit added pursuit.txt"
+	git tag session1
+	git checkout storm
+	git rebase master
+
+	# creat repo "git-demo-back" in github.com
+	git remote remove origin
+	git remote add origin git@github.com:mirzaf4eg/git-demo-back.git
+	git push --set-upstream origin master
+	git remote remove origin
+	git remote add origin git@github.com:mirzaf4eg/git-demo.git
+	git push --set-upstream origin master
+    ```
 
 2. **Create a Gatsby site from a Gatsby starter.**
 
