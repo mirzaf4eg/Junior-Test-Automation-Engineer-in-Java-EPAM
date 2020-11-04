@@ -23,7 +23,7 @@
 
 ## Содержание репозитория:
 
-- [Version Control with Git](#-version-control-with-git)
+- [Version Control with Git](#version-control-with-git)
 - [Learning Gatsby](#-learning-gatsby)
 - [Migration Guides](#-migration-guides)
 - [How to Contribute](#-how-to-contribute)
