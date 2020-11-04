@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="mirzaf4eg" src="https://yadi.sk/i/ci205semon7blQ" width="340" />
+    <img alt="mirzaf4eg" src="https://yadi.sk/i/1U0zMedklgrwKg" width="80" />
   </a>
 </p>
 <h1 align="center">
