@@ -23,7 +23,7 @@
 
 ## Содержание репозитория:
 
-- [Version Control with Git](#-get-up-and-running-in-5-minutes)
+- [Version Control with Git](#-version-control-with-git)
 - [Learning Gatsby](#-learning-gatsby)
 - [Migration Guides](#-migration-guides)
 - [How to Contribute](#-how-to-contribute)
