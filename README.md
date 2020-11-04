@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.instagram.com/mirzaf4eg/">
-    <img alt="mirzaf4eg" src="https://yadi.sk/i/sza1HojQ4aSJ7A" width="80" />
+    <img alt="mirzaf4eg" src="https://yadi.sk/i/sza1HojQ4aSJ7A" />
   </a>
 </p>
 <h1 align="center">
