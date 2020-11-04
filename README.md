@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://yadi.sk/i/ci205semon7blQ" width="60" />
+    <img alt="mirzaf4eg" src="https://yadi.sk/i/ci205semon7blQ" width="340" />
   </a>
 </p>
 <h1 align="center">
@@ -74,7 +74,7 @@ Gatsby is a modern web framework for blazing fast websites.
 
 - **Performance Is Baked In.** Ace your performance audits by default. Gatsby automates code
   splitting, image optimization, inlining critical styles, lazy-loading, prefetching resources,
-  and more to ensure your site is fast â€?no manual tuning required.
+  and more to ensure your site is fast ï¿½?no manual tuning required.
 
 - **Host at Scale for Pennies.** Gatsby sites donâ€™t require servers so you can host your entire
   site on a CDN for a fraction of the cost of a server-rendered site. Many Gatsby sites can be
@@ -132,7 +132,7 @@ Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-- **To dive straight into code samples head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the â€?i>Guides</i>â€? â€?i>API Reference</i>â€? and â€?i>Advanced Tutorials</i>â€?sections in the sidebar.
+- **To dive straight into code samples head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the ï¿½?i>Guides</i>ï¿½? ï¿½?i>API Reference</i>ï¿½? and ï¿½?i>Advanced Tutorials</i>ï¿½?sections in the sidebar.
 
 We welcome suggestions for improving our docs. See the [â€œhow to contributeâ€](https://www.gatsbyjs.com/contributing/how-to-contribute/) documentation for more details.
 
@@ -145,7 +145,7 @@ Already have a Gatsby site? These handy guides will help you add the improvement
 - [Migrate a Gatsby site from v1 to v2](https://www.gatsbyjs.com/docs/migrating-from-v1-to-v2/)
 - Still on v0? Start here: [Migrate a Gatsby site from v0 to v1](https://www.gatsbyjs.com/docs/migrating-from-v0-to-v1/)
 
-## â?Code of Conduct
+## ï¿½?Code of Conduct
 
 Gatsby is dedicated to building a welcoming, diverse, safe community. We expect everyone participating in the Gatsby community to abide by our [**Code of Conduct**](https://www.gatsbyjs.com/contributing/code-of-conduct/). Please read it. Please follow it. In the Gatsby community, we work hard to build each other up and create amazing things together. ğŸ’ªğŸ’œ
 
