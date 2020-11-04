@@ -34,58 +34,35 @@
 
 **Nightmare!**
 
-- Создайте новый репозиторий на github.com и склонируйте его локально на свой компьютер.
-- Создайте файл названием song.txt и поместите туда половину текста любимой песни.
-- Сделайте коммит с названием "add first half of my favorite song" и отправьте его на сервер.
-- Убедитесь что на github есть файл song.txt с текстом песни.
-- Используя веб-интерфейс гитхаба добавьте вторую половину текста песни и сделайте коммит с названием "finish my song".
-- В локальном репозитории сделайте pull и убедитесь что коммит, который вы создали на github, подтянулся и у вас полный текст песни.
-- Добавьте в проект файл .gitignore и настройте так чтобы скрыть файлы с расширением .db, .log и директории с названиями target или bin.
-- Создайте ветку feature и добавьте в неё два коммита
-- Смержите ветку feature в master
-- Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
-	- The ship glides gently on the waves
-	- As day turns into night
-
-- Выполните коммит.
-- Перейдите в master. Создайте там файл arrows.txt и добавьте следующий текст:
-	- One thousand burning arrows
-	- Fill the starlit sky
-- Выполните коммит.
-- Смержите feature в master решив конфликт: сохраните все 4 строки в файле arrows.txt в порядке их добавления в пунктах 4 и 5.
-- Создайте ветку storm и добавьте коммит в файл storm.txt:
-	- Twenty ships with Norsemen braves
-	- Riding the northern wind
-- Добавьте еще 2 строки в storm.txt и сделайте еще один коммит:
-	- They left their shores at early dawn
-	- As a red sun was rising in the east
-- Вернитесь в master и создайте файл pursuit.txt с текстом ниже:
-	- The warming sun returns again
-	- And melts away the snow
-	- The sea is freed from icy chains
-	- Winter is letting go
-- Выполните коммит.
-- Отметьте коммит тегом session1 и перейдите в ветку storm
-- Сделайте rebase ветки storm так чтобы она содержала последний коммит из мастера.
-- Сделайте push вашего репозитория и убедитесь, что все коммиты есть на github.
-- Сделайте новый репозиторий на github.
-- Смените remote в локальном репозитории так, чтобы fetch и push шел на новый репозиторий который был создан в предыдущем шаге.
-- Сделайте push и убедитесь, что второй репозиторий на гитхабе выглядит так же, как и первый.
-- Верните настройки remote в исходное состояние: пул и пуш первого локального репозитория ведет в один удаленный репозиторий на гитхабе.
-
-https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/git-task/Git_Task_Nigtmare.txt
-
-    ```cd /d/EPAM/
+1. Создайте новый репозиторий на github.com и склонируйте его локально на свой компьютер.
+    
+    ```
+    cd /d/EPAM/
 	git clone git@github.com:mirzaf4eg/git-demo.git
 	cd /d/EPAM/git-demo
+    ```
+2. Создайте файл названием song.txt и поместите туда половину текста любимой песни.
+    
+    ```
 	echo "Come on, come on, turn the radio on" >> song.txt
 	echo "It's Friday night and I won't be long" >> song.txt
 	echo "Gotta do my hair, I put my make up on" >> song.txt
 	echo "It's Friday night and I won't be long" >> song.txt
-	git add song.txt
+    ```
+
+3. Сделайте коммит с названием "add first half of my favorite song" и отправьте его на сервер.
+
+    ```
+    git add song.txt
 	git commit -m "add first half of my favorite song"
 	git push
-	# edit song.txt in remout git repo
+    ```
+    
+4. Убедитесь что на github есть файл song.txt с текстом песни. 
+5. Используя веб-интерфейс гитхаба добавьте вторую половину текста песни и сделайте коммит с названием "finish my song".
+
+	```
+    # edit song.txt in remout git repo
 	# >> Till I hit the dance floor
 	# >> Hit the dance floor!
 	# >> I got all I need
@@ -93,12 +70,22 @@ https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/m
 	# >> No I ain't got cash!
 	# >> But I got you baby
 	git pull
+    ```
 
-	echo "*.db" >> .gitignore
+6. В локальном репозитории сделайте pull и убедитесь что коммит, который вы создали на github, подтянулся и у вас полный текст песни.
+7. Добавьте в проект файл .gitignore и настройте так чтобы скрыть файлы с расширением .db, .log и директории с названиями target или bin.
+
+	```
+    echo "*.db" >> .gitignore
 	echo "*.log" >> .gitignore
 	echo "/target" >> .gitignore
 	echo "/bin" >> .gitignore
-	git checkout -b feature
+    ```
+    
+8. Создайте ветку feature и добавьте в неё два коммита.
+
+	```
+    git checkout -b feature
 	echo "Baby I don't need dollar bills to have fun tonight (I love cheap thrills)" >> song.txt
 	echo "Baby I don't need dollar bills to have fun tonight (I love cheap thrills)" >> song.txt
 	echo "I got all I need" >> song.txt
@@ -110,51 +97,145 @@ https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/m
 	echo "As long as I keep dancing" >> song.txt
 	git add song.txt
 	git commit -m "feature commit two"
-	git checkout master
+    
+9. Смержите ветку feature в master.
+
+	```
+    git checkout master
 	git merge feature
-	git checkout feature
+    ```
+    
+10. Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
+	- The ship glides gently on the waves
+	- As day turns into night
+
+	```
+    git checkout feature
 	echo "The ship glides gently on the waves" >> arrows.txt
 	echo "As day turns into night" >> arrows.txt
-	git add arrows.txt
+    ```
+
+11. Выполните коммит.
+    
+	```
+    git add arrows.txt
 	git commit -m "feature commit post added arrow.txt"
-	git checkout master
+    ```
+    
+12. Перейдите в master. Создайте там файл arrows.txt и добавьте следующий текст:
+	- One thousand burning arrows
+	- Fill the starlit sky
+    
+	```
+    git checkout master
 	echo "One thousand burning arrows" >> arrows.txt
 	echo "Fill the starlit sky" >> arrows.txt
-	git add arrows.txt
+    ```
+    
+13. Выполните коммит.
+
+	```
+    git add arrows.txt
 	git commit -m "master commit post added arrow.txt"
-	git merge feature
+    ```
+	
+14. Смержите feature в master решив конфликт: сохраните все 4 строки в файле arrows.txt в порядке их добавления в пунктах 4 и 5.
+
+    ```
+    git merge feature
 	# edit arrows.txt in github.com
 	vi arrows.txt
 	git add arrows.txt
 	git commit -m "edit conflict in arrow.txt"
+    ```
 
-	git checkout -b storm
+15. Создайте ветку storm и добавьте коммит в файл storm.txt:
+	- Twenty ships with Norsemen braves
+	- Riding the northern wind
+
+	```
+    git checkout -b storm
 	echo "Twenty ships with Norsemen braves" >> storm.txt
 	echo "Riding the northern wind" >> storm.txt
 	git add storm.txt
 	git commit -m "storm commit one"
-	echo "They left their shores at early dawn" >> storm.txt
+    ```
+    
+16. Добавьте еще 2 строки в storm.txt и сделайте еще один коммит:
+    - They left their shores at early dawn
+	- As a red sun was rising in the east
+    
+	```
+    echo "They left their shores at early dawn" >> storm.txt
 	echo "As a red sun was rising in the east" >> storm.txt
 	git add storm.txt
 	git commit -m "storm commit two"
-	git checkout master
+    ```
+    
+17. Вернитесь в master и создайте файл pursuit.txt с текстом ниже:
+	- The warming sun returns again
+	- And melts away the snow
+	- The sea is freed from icy chains
+	- Winter is letting go
+
+	```
+    git checkout master
 	echo "The warming sun returns again" >> pursuit.txt
 	echo "And melts away the snow" >> pursuit.txt
 	echo "The sea is freed from icy chains" >> pursuit.txt
 	echo "Winter is letting go" >> pursuit.txt
-	git add pursuit.txt
-	git commit -m "commit added pursuit.txt"
-	git tag session1
-	git checkout storm
-	git rebase master
+    ```
 
-	# creat repo "git-demo-back" in github.com
-	git remote remove origin
+18. Выполните коммит.
+    
+    ```
+    git add pursuit.txt
+	git commit -m "commit added pursuit.txt"
+    ```
+    
+19. Отметьте коммит тегом session1 и перейдите в ветку storm.
+
+	```
+    git tag session1
+	git checkout storm
+    ```
+    
+20. Сделайте rebase ветки storm так чтобы она содержала последний коммит из мастера.
+
+	```
+    git rebase master
+    ```
+
+21. Сделайте push вашего репозитория и убедитесь, что все коммиты есть на github.
+22. Сделайте новый репозиторий на github.
+
+	```
+    # creat repo "git-demo-back" in github.com
+    ```
+    
+23. Смените remote в локальном репозитории так, чтобы fetch и push шел на новый репозиторий который был создан в предыдущем шаге.
+
+	```
+    git remote remove origin
 	git remote add origin git@github.com:mirzaf4eg/git-demo-back.git
-	git push --set-upstream origin master
-	git remote remove origin
+    ```
+    
+24. Сделайте push и убедитесь, что второй репозиторий на гитхабе выглядит так же, как и первый. 
+	
+    ```
+    git push --set-upstream origin master
+    ```
+    
+25. Верните настройки remote в исходное состояние: пул и пуш первого локального репозитория ведет в один удаленный репозиторий на гитхабе.
+
+	```
+    git remote remove origin
 	git remote add origin git@github.com:mirzaf4eg/git-demo.git
 	git push --set-upstream origin master
+    ```
+    
+https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/git-task/Git_Task_Nigtmare.txt
+
     ```
 
 2. **Create a Gatsby site from a Gatsby starter.**
