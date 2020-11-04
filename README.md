@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.instagram.com/mirzaf4eg/">
-   <img src="https://user-images.githubusercontent.com/66875374/98158093-742a2900-1eeb-11eb-9353-5f31780195d2.png" width="45%"></img> 
+   <img src="https://user-images.githubusercontent.com/66875374/98158093-742a2900-1eeb-11eb-9353-5f31780195d2.png" width="30%"></img> 
    <img src="https://user-images.githubusercontent.com/66875374/98158339-c3705980-1eeb-11eb-9ac8-4d693db33447.png" width="45%"></img> 
   </a>
 </p>
