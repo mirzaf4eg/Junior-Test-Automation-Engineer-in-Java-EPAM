@@ -253,6 +253,10 @@
 ## Maven build tool
 <img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="15%"></img>
 
+1. Установите мавен убедитесь, что он работает.
+
+<img src="https://user-images.githubusercontent.com/66875374/98232363-a03abe00-1f6e-11eb-892b-03ae83133584.png" width="100%"></img>
+
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
