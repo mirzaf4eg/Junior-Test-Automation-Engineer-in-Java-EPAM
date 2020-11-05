@@ -252,7 +252,7 @@
     ```
 
 ## Maven build tool
-<img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="5%"></img> 
+<img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="15%"></img> Maven build tool
 
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
