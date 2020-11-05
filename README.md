@@ -34,7 +34,7 @@
 - [Java Collections. Main Task]
 - [Java Collections. Optional Task]
 
-## <img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="1%"></img> Version Control with Git
+## <img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="3%"></img> Version Control with Git
 
 **Nightmare!**
 
