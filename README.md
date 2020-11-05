@@ -257,6 +257,20 @@
 
 <img src="https://user-images.githubusercontent.com/66875374/98232363-a03abe00-1f6e-11eb-892b-03ae83133584.png" width="100%"></img>
 
+2. Загрузите тестовый проект отсюда https://github.com/vitalliuss/helloci/tree/master/Java
+
+[Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
+
+3. Соберите его мавеном с помощь цели test.
+
+<img src="https://user-images.githubusercontent.com/66875374/98233783-91550b00-1f70-11eb-87f8-1a45c3cd40d0.png" width="100%"></img> 
+
+4. Найдите библиотеки junit в папке c:\Users\User_Name\.m2\repository\ и посмотрите на дату создания файлов.
+
+5. Измените версию junit в файле pom.xml c 4.12 на 4.11 и соберите проект снова. Проверьте, что новая версия библиотеки добавилась в .m2/repository.
+
+<img src="https://user-images.githubusercontent.com/66875374/98234327-57383900-1f71-11eb-99e1-0412c7a78b2f.png" width="100%"></img> 
+
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
