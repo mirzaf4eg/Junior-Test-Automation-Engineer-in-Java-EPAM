@@ -32,7 +32,8 @@
 - [Java Collections](#java-collections-main-task)
 - [Java Collections. Optional Task](#java-collections-optional-task)
 
-## <img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="3%"></img> Version Control with Git
+## Version Control with Git
+<img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="5%"></img> Version Control with Git
 
 **Nightmare!**
 
@@ -249,9 +250,9 @@
 	git remote add origin git@github.com:mirzaf4eg/git-demo.git
 	git push --set-upstream origin master
     ```
-    
-<img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="15%"></img> 
+
 ## Maven build tool
+<img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="5%"></img> 
 
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
