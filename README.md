@@ -26,10 +26,10 @@
 - [Version Control with Git](#version-control-with-git)
 - [Maven build tool](#maven-build-tool)
 - [Continuous Integration with Jenkins](#continuous-integration-with-jenkins)
-- [Java Fundamentals.](#java-fundamentals)
+- [Java Fundamentals](#java-fundamentals)
 - [Java Classes](#java-classes)
 - [Clean Code](#clean-code)
-- [Java Collections](#java-collections-main-task)
+- [Java Collections](#java-collections)
 
 ## Version Control with Git
 <img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="10%"></img>
@@ -274,9 +274,9 @@ Already have a Gatsby site? These handy guides will help you add the improvement
 ## Java Fundamentals
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
-- [Main Task](#java-fundamentals-main-task)
-- [Optional Task First](#java-fundamentals-optional-task-first)
-- [Optional Task Second](#java-fundamentals-optional-task-second)
+- [Main Task](#main-task)
+- [Optional Task First](#optional-task-first)
+- [Optional Task Second](#optional-task-second)
 
 ### Main Task
 
@@ -294,9 +294,11 @@ We are currently only accepting bug fixes for Gatsby v1. No new features will be
 ## Clean Code
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/66875374/98228421-9ebac700-1f69-11eb-9f96-242d350ddd4d.jpg" width="15%"></img>
 
-
 ## Java Collections
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
+
+- [Main Task](#main-task)
+- [Optional Task](#optional-task)
 
 ### Main Task
 
