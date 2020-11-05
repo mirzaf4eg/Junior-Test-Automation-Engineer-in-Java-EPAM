@@ -30,7 +30,6 @@
 - [Java Classes](#java-classes)
 - [Clean Code](#clean-code)
 - [Java Collections](#java-collections-main-task)
-- [Java Collections. Optional Task](#java-collections-optional-task)
 
 ## Version Control with Git
 <img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="5%"></img> Version Control with Git
@@ -265,6 +264,7 @@ We welcome suggestions for improving our docs. See the [“how to contribute”]
 **Start Learning Gatsby: [Follow the Tutorial](https://www.gatsbyjs.com/tutorial/) · [Read the Docs](https://www.gatsbyjs.com/docs/)**
 
 ## Continuous Integration with Jenkins
+<img src="https://user-images.githubusercontent.com/66875374/98227492-6ff02100-1f68-11eb-8d21-f6a1c0a8a52d.jpg" width="15%"></img> Continuous Integration with Jenkins
 
 Already have a Gatsby site? These handy guides will help you add the improvements of Gatsby v2 to your site without starting from scratch!
 
