@@ -113,8 +113,9 @@
     ```
     
 10. Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
-	-  _The ship glides gently on the waves_
-	- _As day turns into night_
+	>  _The ship glides gently on the waves_
+    
+	> _As day turns into night_
     
 
 	```
@@ -131,8 +132,9 @@
     ```
     
 12. Перейдите в master. Создайте там файл arrows.txt и добавьте следующий текст:
-	- _One thousand burning arrows_
-	- _Fill the starlit sky_
+	> _One thousand burning arrows_
+    
+	> _Fill the starlit sky_
     
 	```
     git checkout master
@@ -171,8 +173,9 @@
     ```
     
 16. Добавьте еще 2 строки в storm.txt и сделайте еще один коммит:
-    - _They left their shores at early dawn_
-	- _As a red sun was rising in the east_
+    > _They left their shores at early dawn_
+    
+	> _As a red sun was rising in the east_
     
 	```
     echo "They left their shores at early dawn" >> storm.txt
@@ -182,10 +185,13 @@
     ```
     
 17. Вернитесь в master и создайте файл pursuit.txt с текстом ниже:
-	- _The warming sun returns again_
-	- _And melts away the snow_
-	- _The sea is freed from icy chains_
-	- _Winter is letting go_
+	> _The warming sun returns again_
+    
+	> _And melts away the snow_
+    
+	> _The sea is freed from icy chains_
+    
+	> _Winter is letting go_
 
 	```
     git checkout master
