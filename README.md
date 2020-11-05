@@ -259,7 +259,7 @@
 
 2. Загрузите тестовый проект отсюда https://github.com/vitalliuss/helloci/tree/master/Java
 
-[Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
+	[Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
 
 3. Соберите его мавеном с помощь цели test.
 
