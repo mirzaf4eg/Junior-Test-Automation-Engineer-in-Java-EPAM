@@ -271,7 +271,9 @@
 
 5. Измените версию junit в файле pom.xml c 4.12 на 4.11 и соберите проект снова. Проверьте, что новая версия библиотеки добавилась в .m2/repository.
 
-<img src="https://user-images.githubusercontent.com/66875374/98234327-57383900-1f71-11eb-99e1-0412c7a78b2f.png" width="100%"></img> 
+<img src="https://user-images.githubusercontent.com/66875374/98234327-57383900-1f71-11eb-99e1-0412c7a78b2f.png" width="100%"></img>
+
+[Вернуться к содержанию](#содержимое-репозитория)
 
 ## Continuous Integration with Jenkins
 <img src="https://user-images.githubusercontent.com/66875374/98227492-6ff02100-1f68-11eb-8d21-f6a1c0a8a52d.jpg" width="15%"></img>
@@ -304,6 +306,8 @@
 
 10. С помощью цели  mvn cobertura:cobertura измерьте покрытие кода юнит-тестами (code coverage) и опубликуйте на странице джобы в виде графика.
 
+[Вернуться к содержанию](#содержимое-репозитория)
+
 ## Java Fundamentals
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
@@ -321,11 +325,17 @@ This repository is a [monorepo](https://trunkbaseddevelopment.com/monorepos/) ma
 
 We are currently only accepting bug fixes for Gatsby v1. No new features will be accepted.
 
+[Вернуться к содержанию](#содержимое-репозитория)
+
 ## Java Classes
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
+[Вернуться к содержанию](#содержимое-репозитория)
+
 ## Clean Code
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/66875374/98228421-9ebac700-1f69-11eb-9f96-242d350ddd4d.jpg" width="15%"></img>
+
+[Вернуться к содержанию](#содержимое-репозитория)
 
 ## Java Collections
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
@@ -337,8 +347,12 @@ We are currently only accepting bug fixes for Gatsby v1. No new features will be
 
 ### Optional Task
 
+[Вернуться к содержанию](#содержимое-репозитория)
+
 ## :memo: License
 
 Licensed under the [MIT License](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/LICENSE.txt).
 
 ## 💜 Thanks
+
+[Вернуться к содержанию](#содержимое-репозитория)0
