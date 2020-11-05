@@ -32,7 +32,7 @@
 - [Java Collections](#java-collections-main-task)
 
 ## Version Control with Git
-<img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="5%"></img> Version Control with Git
+<img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="10%"></img>
 
 **Nightmare!**
 
@@ -251,7 +251,7 @@
     ```
 
 ## Maven build tool
-<img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="15%"></img> Maven build tool
+<img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="15%"></img>
 
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
@@ -264,7 +264,7 @@ We welcome suggestions for improving our docs. See the [“how to contribute”]
 **Start Learning Gatsby: [Follow the Tutorial](https://www.gatsbyjs.com/tutorial/) · [Read the Docs](https://www.gatsbyjs.com/docs/)**
 
 ## Continuous Integration with Jenkins
-<img src="https://user-images.githubusercontent.com/66875374/98227492-6ff02100-1f68-11eb-8d21-f6a1c0a8a52d.jpg" width="15%"></img> Continuous Integration with Jenkins
+<img src="https://user-images.githubusercontent.com/66875374/98227492-6ff02100-1f68-11eb-8d21-f6a1c0a8a52d.jpg" width="15%"></img>
 
 Already have a Gatsby site? These handy guides will help you add the improvements of Gatsby v2 to your site without starting from scratch!
 
@@ -272,6 +272,7 @@ Already have a Gatsby site? These handy guides will help you add the improvement
 - Still on v0? Start here: [Migrate a Gatsby site from v0 to v1](https://www.gatsbyjs.com/docs/migrating-from-v0-to-v1/)
 
 ## Java Fundamentals
+<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
 - [Main Task](#java-fundamentals-main-task)
 - [Optional Task First](#java-fundamentals-optional-task-first)
@@ -288,10 +289,14 @@ This repository is a [monorepo](https://trunkbaseddevelopment.com/monorepos/) ma
 We are currently only accepting bug fixes for Gatsby v1. No new features will be accepted.
 
 ## Java Classes
+<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
 ## Clean Code
+<img src="https://user-images.githubusercontent.com/66875374/98228421-9ebac700-1f69-11eb-9f96-242d350ddd4d.jpg" width="15%"></img>
+
 
 ## Java Collections
+<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
 ### Main Task
 
@@ -302,5 +307,3 @@ We are currently only accepting bug fixes for Gatsby v1. No new features will be
 Licensed under the [MIT License](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/LICENSE.txt).
 
 ## 💜 Thanks
-
-Thanks to our many contributors and to [Netlify](https://www.netlify.com/) for hosting [Gatsby](https://www.gatsbyjs.com) and our example sites.
