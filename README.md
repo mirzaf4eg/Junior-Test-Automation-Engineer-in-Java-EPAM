@@ -159,6 +159,7 @@
 
 15. Создайте ветку storm и добавьте коммит в файл storm.txt:
 	> _Twenty ships with Norsemen braves_
+    
 	> _Riding the northern wind_
 
 	```
