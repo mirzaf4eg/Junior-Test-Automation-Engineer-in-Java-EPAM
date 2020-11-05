@@ -15,10 +15,10 @@
   В моем коде прошу никого не винить. Я честно и добросовестно слизал все с просторов интернета. Я очень старался!
 </h3>
 <p align="center">
-  Практические задания первого этапа курса.
+  Практические задания первого этапа курса:
 
 <h3 align="center">
-  <a href="https://careers.epam.by/training/training-listings/training.2332/">Junior Test Automation Engineer in Java</a>
+  <a href="https://careers.epam.by/training/training-listings/training.2332/">EPAM. Junior Test Automation Engineer in Java</a>
 </h3>
 
 # Содержимое репозитория:
@@ -26,13 +26,11 @@
 - [Version Control with Git](#version-control-with-git)
 - [Maven build tool](#maven-build-tool)
 - [Continuous Integration with Jenkins](#continuous-integration-with-jenkins)
-- [Java Fundamentals. Main Task]
-- [Java Fundamentals. Optional Task First]
-- [Java Fundamentals. Optional Task Second]
-- [Java Classes. Main Task]
-- [Clean Code]
-- [Java Collections. Main Task]
-- [Java Collections. Optional Task]
+- [Java Fundamentals.](#java-fundamentals)
+- [Java Classes](#java-classes)
+- [Clean Code](#clean-code)
+- [Java Collections](#java-collections-main-task)
+- [Java Collections. Optional Task](#java-collections-optional-task)
 
 ## <img src="https://user-images.githubusercontent.com/66875374/98221998-58fa0080-1f61-11eb-9ac5-e39acee8bd86.png" width="3%"></img> Version Control with Git
 
@@ -249,7 +247,7 @@
 	git push --set-upstream origin master
     ```
     
-##  Learning Gatsby
+##  Maven build tool
 
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
@@ -261,34 +259,42 @@ We welcome suggestions for improving our docs. See the [“how to contribute”]
 
 **Start Learning Gatsby: [Follow the Tutorial](https://www.gatsbyjs.com/tutorial/) · [Read the Docs](https://www.gatsbyjs.com/docs/)**
 
-## 💼 Migration Guides
+## Continuous Integration with Jenkins
 
 Already have a Gatsby site? These handy guides will help you add the improvements of Gatsby v2 to your site without starting from scratch!
 
 - [Migrate a Gatsby site from v1 to v2](https://www.gatsbyjs.com/docs/migrating-from-v1-to-v2/)
 - Still on v0? Start here: [Migrate a Gatsby site from v0 to v1](https://www.gatsbyjs.com/docs/migrating-from-v0-to-v1/)
 
-## �?Code of Conduct
+## Java Fundamentals
 
-Gatsby is dedicated to building a welcoming, diverse, safe community. We expect everyone participating in the Gatsby community to abide by our [**Code of Conduct**](https://www.gatsbyjs.com/contributing/code-of-conduct/). Please read it. Please follow it. In the Gatsby community, we work hard to build each other up and create amazing things together. 💪💜
+- [Main Task](#java-fundamentals-main-task)
+- [Optional Task First](#java-fundamentals-optional-task-first)
+- [Optional Task Second](#java-fundamentals-optional-task-second)
 
-## 🤝 How to Contribute
+### Main Task
 
-Whether you're helping us fix bugs, improve the docs, or spread the word, we'd love to have you as part of the Gatsby community! :muscle::purple_heart:
-
-Check out our [**Contributing Guide**](https://www.gatsbyjs.com/contributing/how-to-contribute/) for ideas on contributing and setup steps for getting our repositories up and running on your local machine.
-
-### A note on how this repository is organized
+### Optional Task First
 
 This repository is a [monorepo](https://trunkbaseddevelopment.com/monorepos/) managed using [Lerna](https://github.com/lerna/lerna). This means there are [multiple packages](/packages) managed in this codebase, even though we publish them to NPM as separate packages.
 
-### Contributing to Gatsby v1
+### Optional Task Second
 
 We are currently only accepting bug fixes for Gatsby v1. No new features will be accepted.
 
+## Java Classes
+
+## Clean Code
+
+## Java Collections
+
+### Main Task
+
+### Optional Task
+
 ## :memo: License
 
-Licensed under the [MIT License](./LICENSE).
+Licensed under the [MIT License](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/LICENSE.txt).
 
 ## 💜 Thanks
 
