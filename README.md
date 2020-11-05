@@ -271,23 +271,36 @@
 
 <img src="https://user-images.githubusercontent.com/66875374/98234327-57383900-1f71-11eb-99e1-0412c7a78b2f.png" width="100%"></img> 
 
-Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the �?i>Guides</i>�? �?i>API Reference</i>�? and �?i>Advanced Tutorials</i>�?sections in the sidebar.
-
-We welcome suggestions for improving our docs. See the [“how to contribute”](https://www.gatsbyjs.com/contributing/how-to-contribute/) documentation for more details.
-
-**Start Learning Gatsby: [Follow the Tutorial](https://www.gatsbyjs.com/tutorial/) · [Read the Docs](https://www.gatsbyjs.com/docs/)**
-
 ## Continuous Integration with Jenkins
 <img src="https://user-images.githubusercontent.com/66875374/98227492-6ff02100-1f68-11eb-8d21-f6a1c0a8a52d.jpg" width="15%"></img>
 
-Already have a Gatsby site? These handy guides will help you add the improvements of Gatsby v2 to your site without starting from scratch!
+**Nightmare!**
 
-- [Migrate a Gatsby site from v1 to v2](https://www.gatsbyjs.com/docs/migrating-from-v1-to-v2/)
-- Still on v0? Start here: [Migrate a Gatsby site from v0 to v1](https://www.gatsbyjs.com/docs/migrating-from-v0-to-v1/)
+1. Установите Jenkins.
+
+2. Создайте задачу, которая будет делать следующее:
+	- Клонировать проект:
+    [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
+    - Запускать тесты из проекта в директори Java с помощью цели mvn test.
+    
+3. Настройте билд триггеры:
+	- Чтобы задача выполнялась раз в 5 минут;
+    - Запуск тестов не позднее чем через 5 минут после коммита в git;
+    - Каждый будний день в полночь.
+    
+4. Опубликуйте файл Java\target\surefire eports\com.github.vitalliuss.helloci.AppTest.txt как артефакт.
+
+5. Сменить порт сервера на 8081.
+
+6. Создать ноду и настроить сервер так, чтобы джоба выполнялась только на slave ноде.
+
+7. Настроить Job Config History и thinBackup.
+
+8. Создать пользователя user и дать ему права на просмотр джоб Jenkins, но без возможности записи или смены настроек.
+
+9. Создать параметризованную джобу HelloUser, которая будет спрашивать в качестве параметра имя пользователя (username) и писать в консоль "Hello, username!".
+
+10. С помощью цели  mvn cobertura:cobertura измерьте покрытие кода юнит-тестами (code coverage) и опубликуйте на странице джобы в виде графика.
 
 ## Java Fundamentals
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
