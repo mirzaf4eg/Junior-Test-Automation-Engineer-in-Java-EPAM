@@ -103,6 +103,7 @@
 	echo "As long as I keep dancing" >> song.txt
 	git add song.txt
 	git commit -m "feature commit two"
+    ```
     
 9. Смержите ветку feature в master.
 
@@ -112,8 +113,8 @@
     ```
     
 10. Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
-	- The ship glides gently on the waves
-	- As day turns into night
+		_The ship glides gently on the waves_
+		_As day turns into night_
 
 	```
     git checkout feature
@@ -129,8 +130,8 @@
     ```
     
 12. Перейдите в master. Создайте там файл arrows.txt и добавьте следующий текст:
-	- One thousand burning arrows
-	- Fill the starlit sky
+		_One thousand burning arrows_
+		_Fill the starlit sky_
     
 	```
     git checkout master
@@ -156,8 +157,8 @@
     ```
 
 15. Создайте ветку storm и добавьте коммит в файл storm.txt:
-	- Twenty ships with Norsemen braves
-	- Riding the northern wind
+		_Twenty ships with Norsemen braves_
+		_Riding the northern wind_
 
 	```
     git checkout -b storm
@@ -168,8 +169,8 @@
     ```
     
 16. Добавьте еще 2 строки в storm.txt и сделайте еще один коммит:
-    - They left their shores at early dawn
-	- As a red sun was rising in the east
+    	_They left their shores at early dawn_
+		_As a red sun was rising in the east_
     
 	```
     echo "They left their shores at early dawn" >> storm.txt
@@ -179,10 +180,10 @@
     ```
     
 17. Вернитесь в master и создайте файл pursuit.txt с текстом ниже:
-	- The warming sun returns again
-	- And melts away the snow
-	- The sea is freed from icy chains
-	- Winter is letting go
+		_The warming sun returns again_
+		_And melts away the snow_
+		_The sea is freed from icy chains_
+		_Winter is letting go_
 
 	```
     git checkout master
