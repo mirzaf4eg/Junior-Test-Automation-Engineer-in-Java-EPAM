@@ -34,7 +34,7 @@
 - [Java Collections. Main Task]
 - [Java Collections. Optional Task]
 
-## Version Control with Git
+## ![git.png]({{site.baseurl}}/git.png) Version Control with Git
 
 **Nightmare!**
 
