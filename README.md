@@ -21,11 +21,11 @@
   <a href="https://careers.epam.by/training/training-listings/training.2332/">Junior Test Automation Engineer in Java</a>
 </h3>
 
-## Содержимое репозитория:
+# Содержимое репозитория:
 
-- [Version Control with Git](#-version-control-with-git)
-- [Maven build tool](#-maven-build-tool)
-- [Continuous Integration with Jenkins](#-continuous-integration-with-jenkins)
+- [Version Control with Git](#version-control-with-git)
+- [Maven build tool](#maven-build-tool)
+- [Continuous Integration with Jenkins](#continuous-integration-with-jenkins)
 - [Java Fundamentals. Main Task]
 - [Java Fundamentals. Optional Task First]
 - [Java Fundamentals. Optional Task Second]
