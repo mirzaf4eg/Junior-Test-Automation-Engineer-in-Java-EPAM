@@ -113,8 +113,8 @@
     ```
     
 10. Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
-		*_The ship glides gently on the waves_
-		*_As day turns into night_
+		`_The ship glides gently on the waves_
+		`_As day turns into night_
 
 	```
     git checkout feature
