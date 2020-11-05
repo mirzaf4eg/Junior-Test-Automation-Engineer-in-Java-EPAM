@@ -45,7 +45,7 @@
 	git clone git@github.com:mirzaf4eg/git-demo.git
 	cd /d/EPAM/git-demo
     ```
-    [git-demo](https://github.com/mirzaf4eg/git-demo.git).
+    [git-demo](https://github.com/mirzaf4eg/git-demo.git)
      
 2. Создайте файл названием song.txt и поместите туда половину текста любимой песни.
     
@@ -227,7 +227,7 @@
 	```
     # creat repo "git-demo-back" in github.com
     ```
-    [git-demo-back](https://github.com/mirzaf4eg/git-demo-back.git).
+    [git-demo-back](https://github.com/mirzaf4eg/git-demo-back.git)
     
 23. Смените remote в локальном репозитории так, чтобы fetch и push шел на новый репозиторий который был создан в предыдущем шаге.
 
@@ -250,7 +250,7 @@
 	git push --set-upstream origin master
     ```
     
-##  Maven build tool
+##  <img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="15%"></img> Maven build tool
 
 Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
