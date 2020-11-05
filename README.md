@@ -272,7 +272,7 @@ Already have a Gatsby site? These handy guides will help you add the improvement
 - Still on v0? Start here: [Migrate a Gatsby site from v0 to v1](https://www.gatsbyjs.com/docs/migrating-from-v0-to-v1/)
 
 ## Java Fundamentals
-<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/66875374/98229803-6c11ce00-1f6b-11eb-9b63-32fd34c27515.jpg" width="15%"></img>
+<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
 - [Main Task](#java-fundamentals-main-task)
 - [Optional Task First](#java-fundamentals-optional-task-first)
@@ -289,14 +289,14 @@ This repository is a [monorepo](https://trunkbaseddevelopment.com/monorepos/) ma
 We are currently only accepting bug fixes for Gatsby v1. No new features will be accepted.
 
 ## Java Classes
-<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/66875374/98229859-8055cb00-1f6b-11eb-9370-dd13c2c8e359.png" width="15%"></img>
+<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
 ## Clean Code
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/66875374/98228421-9ebac700-1f69-11eb-9f96-242d350ddd4d.jpg" width="15%"></img>
 
 
 ## Java Collections
-<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/66875374/98229949-9fecf380-1f6b-11eb-9a8f-b9233cd4fbe6.png" width="15%"></img>
+<img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
 ### Main Task
 
