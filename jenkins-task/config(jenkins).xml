@@ -1,0 +1,128 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <temporaryOfflineCause class="hudson.slaves.OfflineCause$UserCause">
+    <timestamp>1604660976995</timestamp>
+    <description>
+      <holder>
+        <owner>hudson.slaves.Messages</owner>
+      </holder>
+      <key>SlaveComputer.DisconnectedBy</key>
+      <args>
+        <string>mirzaf4eg</string>
+        <string></string>
+      </args>
+    </description>
+    <userId>mirzaf4eg</userId>
+  </temporaryOfflineCause>
+  <disabledAdministrativeMonitors>
+    <string>jenkins.security.QueueItemAuthenticatorMonitor</string>
+    <string>hudson.diagnosis.ReverseProxySetupMonitor</string>
+  </disabledAdministrativeMonitors>
+  <version>2.249.2</version>
+  <installStateName>RUNNING</installStateName>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:mirzaf4eg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:mirzaf4eg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:mirzaf4eg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:mirzaf4eg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:mirzaf4eg</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:users</permission>
+    <permission>hudson.model.Computer.Build:mirzaf4eg</permission>
+    <permission>hudson.model.Computer.Configure:mirzaf4eg</permission>
+    <permission>hudson.model.Computer.Connect:mirzaf4eg</permission>
+    <permission>hudson.model.Computer.Create:mirzaf4eg</permission>
+    <permission>hudson.model.Computer.Delete:mirzaf4eg</permission>
+    <permission>hudson.model.Computer.Disconnect:mirzaf4eg</permission>
+    <permission>hudson.model.Hudson.Administer:mirzaf4eg</permission>
+    <permission>hudson.model.Hudson.Read:mirzaf4eg</permission>
+    <permission>hudson.model.Hudson.Read:users</permission>
+    <permission>hudson.model.Item.Build:mirzaf4eg</permission>
+    <permission>hudson.model.Item.Cancel:mirzaf4eg</permission>
+    <permission>hudson.model.Item.Configure:mirzaf4eg</permission>
+    <permission>hudson.model.Item.Create:mirzaf4eg</permission>
+    <permission>hudson.model.Item.Delete:mirzaf4eg</permission>
+    <permission>hudson.model.Item.Discover:mirzaf4eg</permission>
+    <permission>hudson.model.Item.Discover:users</permission>
+    <permission>hudson.model.Item.Move:mirzaf4eg</permission>
+    <permission>hudson.model.Item.Read:mirzaf4eg</permission>
+    <permission>hudson.model.Item.Read:users</permission>
+    <permission>hudson.model.Item.Workspace:mirzaf4eg</permission>
+    <permission>hudson.model.Run.Delete:mirzaf4eg</permission>
+    <permission>hudson.model.Run.Replay:mirzaf4eg</permission>
+    <permission>hudson.model.Run.Update:mirzaf4eg</permission>
+    <permission>hudson.model.View.Configure:mirzaf4eg</permission>
+    <permission>hudson.model.View.Configure:users</permission>
+    <permission>hudson.model.View.Create:mirzaf4eg</permission>
+    <permission>hudson.model.View.Delete:mirzaf4eg</permission>
+    <permission>hudson.model.View.Read:mirzaf4eg</permission>
+    <permission>hudson.scm.SCM.Tag:mirzaf4eg</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:mirzaf4eg</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:mirzaf4eg</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.View:mirzaf4eg</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>false</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks>
+    <jdk>
+      <name>java linux</name>
+      <home></home>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <hudson.tools.JDKInstaller plugin="jdk-tool@1.4">
+              <id>jdk-8u221-oth-JPR</id>
+              <acceptLicense>true</acceptLicense>
+            </hudson.tools.JDKInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
+    </jdk>
+    <jdk>
+      <name>8.0_261</name>
+      <home>c:\Program Files\Java\jdk1.8.0_261\</home>
+      <properties/>
+    </jdk>
+    <jdk>
+      <name>14.0.1</name>
+      <home>c:\Program Files\Java\jdk-14.0.1\</home>
+      <properties/>
+    </jdk>
+    <jdk>
+      <name>1.8.0.272</name>
+      <home>/usr/bin/java/</home>
+      <properties/>
+    </jdk>
+  </jdks>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>0</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>
