@@ -296,7 +296,7 @@
 	- Клонировать проект:
     [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
     
-    ```scss
+    ```css
 	<scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.5">
     	<configVersion>2</configVersion>
     	<userRemoteConfigs>
@@ -314,6 +314,7 @@
     	<submoduleCfg class="list"/>
     	<extensions/>
   </scm>
+
     ```
     
     - Запускать тесты из проекта в директори Java с помощью цели mvn test.
