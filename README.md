@@ -295,7 +295,6 @@
 3. Создайте задачу, которая будет делать следующее:
 
 Клонировать проект:
-     
     [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
     
 ```html
