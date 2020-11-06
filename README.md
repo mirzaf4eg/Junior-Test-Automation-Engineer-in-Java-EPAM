@@ -294,7 +294,7 @@
 
 3. Создайте задачу, которая будет делать следующее:
 
-    3.1. Клонировать проект:
+    Клонировать проект:
      
     [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
     
@@ -315,9 +315,9 @@
    <gitTool>2.18.4</gitTool>
    <submoduleCfg class="list"/>
    <extensions/>
-</scm>
+</scm>```
 
-   3.2. Запускать тесты из проекта в директори Java с помощью цели mvn test.
+   Запускать тесты из проекта в директори Java с помощью цели mvn test.
 
 ```
 <hudson.tasks.Maven>
