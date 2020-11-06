@@ -317,6 +317,7 @@
    <extensions/>
 </scm>```
 
+
    3.2. Запускать тесты из проекта в директори Java с помощью цели mvn test.
 
 ```html
@@ -329,6 +330,7 @@
    <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
    <injectBuildVariables>false</injectBuildVariables>
 </hudson.tasks.Maven>```
+
 
    3.3 Чтобы задача выполнялась раз в 5 минут, не позднее чем через 5 минут после коммита в git, каждый будний день в полночь.
     
