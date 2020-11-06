@@ -282,18 +282,18 @@
 
 1. Установите Jenkins.
 
-Место для конфига дженкинса
+   Место для конфига дженкинса
 
 2. Создать ноду и настроить сервер так, чтобы джоба выполнялась только на **slave** ноде.
 
-	    - Ноду делаю на отдельном компьютере в общей сети:
+   Использую виртуальную машину с CentOS:
 		
 <img src="https://user-images.githubusercontent.com/66875374/98385946-a741f900-2060-11eb-8903-448d4cb09a17.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/66875374/98386053-cb9dd580-2060-11eb-9ffc-520c9b4cec02.png" width="45%"></img>
 
-		- Настраиваю Jenkins: Мето для конфига ноды
+   Настраиваю Jenkins: Мето для конфига ноды
 
 3. Создайте задачу, которая будет делать следующее:
-	- Клонировать проект:
+     3.1. Клонировать проект:
     [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
     
 ```html
@@ -315,11 +315,34 @@
    <extensions/>
 </scm>
 ```
+	3.2. Запускать тесты из проекта в директори Java с помощью цели mvn test.
+
+```html
+<hudson.tasks.Maven>
+   <targets>**test -Dmaven.test.failure.ignore=true**</targets>
+   <mavenName>linux maven</mavenName>
+   <pom>/home/Jenkins/workspace/EPAM-continuous-integration-with-Jenkins-from-mirzaf4eg/Java/pom.xml</pom>
+   <usePrivateRepository>false</usePrivateRepository>
+   <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+   <injectBuildVariables>false</injectBuildVariables>
+</hudson.tasks.Maven>
+```
+
+	3.3 Чтобы задача выполнялась раз в 5 минут, не позднее чем через 5 минут после коммита в git, каждый будний день в полночь.
     
-    - Запускать тесты из проекта в директори Java с помощью цели mvn test.
-	- Чтобы задача выполнялась раз в 5 минут;
-    - Запуск тестов не позднее чем через 5 минут после коммита в git;
-    - Каждый будний день в полночь.
+```html
+    <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec>H/5 * * * *
+H 0 * * 1-5</spec>
+    </hudson.triggers.TimerTrigger>
+    <hudson.triggers.SCMTrigger>
+      <spec>H/5 * * * *</spec>
+      <ignorePostCommitHooks>false</ignorePostCommitHooks>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+```
     
 4. Опубликуйте файл _Java\target\surefire eports\com.github.vitalliuss.helloci.AppTest.txt_ как артефакт.
 
