@@ -294,7 +294,7 @@
 
 3. Создайте задачу, которая будет делать следующее:
 
-     3.1. Клонировать проект:
+    3.1. Клонировать проект:
      
     [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
     
@@ -315,9 +315,9 @@
    <gitTool>2.18.4</gitTool>
    <submoduleCfg class="list"/>
    <extensions/>
-</scm>
+</scm>```
 
-	3.2. Запускать тесты из проекта в директори Java с помощью цели mvn test.
+   3.2. Запускать тесты из проекта в директори Java с помощью цели mvn test.
 
 ```html
 <hudson.tasks.Maven>
@@ -328,9 +328,9 @@
    <settings class="jenkins.mvn.DefaultSettingsProvider"/>
    <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
    <injectBuildVariables>false</injectBuildVariables>
-</hudson.tasks.Maven>
+</hudson.tasks.Maven>```
 
-	3.3 Чтобы задача выполнялась раз в 5 минут, не позднее чем через 5 минут после коммита в git, каждый будний день в полночь.
+   3.3 Чтобы задача выполнялась раз в 5 минут, не позднее чем через 5 минут после коммита в git, каждый будний день в полночь.
     
 ```html
     <triggers>
@@ -342,7 +342,7 @@ H 0 * * 1-5</spec>
       <spec>H/5 * * * *</spec>
       <ignorePostCommitHooks>false</ignorePostCommitHooks>
     </hudson.triggers.SCMTrigger>
-  </triggers>
+  </triggers>```
     
 4. Опубликуйте файл _Java\target\surefire eports\com.github.vitalliuss.helloci.AppTest.txt_ как артефакт.
 
