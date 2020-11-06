@@ -282,15 +282,17 @@
 
 1. Установите Jenkins.
 
-   Место для конфига дженкинса
+   Файл конфига дженкинса
 
 2. Создать ноду и настроить сервер так, чтобы джоба выполнялась только на **slave** ноде.
+
+   Файл конфига жобы
 
    Использую виртуальную машину с CentOS:
 		
 <img src="https://user-images.githubusercontent.com/66875374/98385946-a741f900-2060-11eb-8903-448d4cb09a17.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/66875374/98386053-cb9dd580-2060-11eb-9ffc-520c9b4cec02.png" width="45%"></img>
 
-   Настраиваю Jenkins: Мето для конфига ноды
+   Настраиваю Jenkins: Файл конфига ноды
 
 3. Создайте задачу, которая будет делать следующее:
 
@@ -318,10 +320,12 @@
 ```
 
    Запускать тесты из проекта в директори Java с помощью цели mvn test.
+   
+> test -Dmaven.test.failure.ignore=true   
 
 ```html
 <hudson.tasks.Maven>
-   <targets>**test -Dmaven.test.failure.ignore=true**</targets>
+   <targets>test -Dmaven.test.failure.ignore=true</targets>
    <mavenName>linux maven</mavenName>
    <pom>/home/Jenkins/workspace/EPAM-continuous-integration-with-Jenkins-from-mirzaf4eg/Java/pom.xml</pom>
    <usePrivateRepository>false</usePrivateRepository>
@@ -334,31 +338,74 @@
 4. Настроить билд тригеры так, чтобы задача выполнялась раз в 5 минут, не позднее чем через 5 минут после коммита в git, каждый будний день в полночь.
     
 ```html
-    <triggers>
-    <hudson.triggers.TimerTrigger>
-      <spec>H/5 * * * *
+<triggers>
+   <hudson.triggers.TimerTrigger>
+   	  <spec>H/5 * * * *
 H 0 * * 1-5</spec>
-    </hudson.triggers.TimerTrigger>
-    <hudson.triggers.SCMTrigger>
+   </hudson.triggers.TimerTrigger>
+   <hudson.triggers.SCMTrigger>
       <spec>H/5 * * * *</spec>
       <ignorePostCommitHooks>false</ignorePostCommitHooks>
-    </hudson.triggers.SCMTrigger>
-  </triggers>
+   </hudson.triggers.SCMTrigger>
+</triggers>
 ```
     
 5. Опубликуйте файл _Java\target\surefire eports\com.github.vitalliuss.helloci.AppTest.txt_ как артефакт.
 
-5. Сменить порт сервера на **8081**.
+```html
+<hudson.tasks.ArtifactArchiver>
+   <artifacts>**/target/surefire-reports/com.github.vitalliuss.helloci.AppTest.txt</artifacts>
+   <allowEmptyArchive>false</allowEmptyArchive>
+   <onlyIfSuccessful>false</onlyIfSuccessful>
+   <fingerprint>false</fingerprint>
+   <defaultExcludes>true</defaultExcludes>
+   <caseSensitive>true</caseSensitive>
+   <followSymlinks>false</followSymlinks>
+</hudson.tasks.ArtifactArchiver>
+```
 
-6. Создать ноду и настроить сервер так, чтобы джоба выполнялась только на **slave** ноде.
+6. Сменить порт сервера на **8081**.
+
+Фал настроек
 
 7. Настроить **Job Config History** и **thinBackup**.
 
+```html
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jvnet.hudson.plugins.thinbackup.ThinBackupPluginImpl plugin="thinBackup@1.10">
+  <fullBackupSchedule>H 12 * * 1-5</fullBackupSchedule>
+  <diffBackupSchedule></diffBackupSchedule>
+  <backupPath>G:\JenkinsBackup</backupPath>
+  <nrMaxStoredFull>-1</nrMaxStoredFull>
+  <excludedFilesRegex></excludedFilesRegex>
+  <waitForIdle>true</waitForIdle>
+  <forceQuietModeTimeout>120</forceQuietModeTimeout>
+  <cleanupDiff>true</cleanupDiff>
+  <moveOldBackupsToZipFile>true</moveOldBackupsToZipFile>
+  <backupBuildResults>true</backupBuildResults>
+  <backupBuildArchive>true</backupBuildArchive>
+  <backupPluginArchives>false</backupPluginArchives>
+  <backupUserContents>false</backupUserContents>
+  <backupAdditionalFiles>false</backupAdditionalFiles>
+  <backupAdditionalFilesRegex></backupAdditionalFilesRegex>
+  <backupNextBuildNumber>false</backupNextBuildNumber>
+  <backupBuildsToKeepOnly>false</backupBuildsToKeepOnly>
+</org.jvnet.hudson.plugins.thinbackup.ThinBackupPluginImpl>
+```
+
+9. С помощью цели  **mvn cobertura:cobertura** измерьте покрытие кода юнит-тестами (code coverage) и опубликуйте на странице джобы в виде графика.
+
+> clean cobertura:cobertura -Dcobertura.report.format=xml
+
+<img src="https://user-images.githubusercontent.com/66875374/98412658-64484b80-2089-11eb-9a21-18abf5492b70.png" width="100%"></img> 
+
 8. Создать пользователя **user** и дать ему права на просмотр джоб Jenkins, но без возможности записи или смены настроек.
 
-9. Создать параметризованную джобу **HelloUser**, которая будет спрашивать в качестве параметра имя пользователя (username) и писать в консоль "Hello, username!".
 
-10. С помощью цели  **mvn cobertura:cobertura** измерьте покрытие кода юнит-тестами (code coverage) и опубликуйте на странице джобы в виде графика.
+
+10. Создать параметризованную джобу **HelloUser**, которая будет спрашивать в качестве параметра имя пользователя (username) и писать в консоль "Hello, username!".
+
+Файл конфига жобы
 
 [Вернуться к содержанию](#содержимое-репозитория)
 
