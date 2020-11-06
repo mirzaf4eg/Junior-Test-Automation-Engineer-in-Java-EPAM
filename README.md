@@ -293,7 +293,9 @@
    Настраиваю Jenkins: Мето для конфига ноды
 
 3. Создайте задачу, которая будет делать следующее:
+
      3.1. Клонировать проект:
+     
     [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
     
 ```html
@@ -314,7 +316,7 @@
    <submoduleCfg class="list"/>
    <extensions/>
 </scm>
-```
+
 	3.2. Запускать тесты из проекта в директори Java с помощью цели mvn test.
 
 ```html
@@ -327,7 +329,6 @@
    <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
    <injectBuildVariables>false</injectBuildVariables>
 </hudson.tasks.Maven>
-```
 
 	3.3 Чтобы задача выполнялась раз в 5 минут, не позднее чем через 5 минут после коммита в git, каждый будний день в полночь.
     
@@ -342,7 +343,6 @@ H 0 * * 1-5</spec>
       <ignorePostCommitHooks>false</ignorePostCommitHooks>
     </hudson.triggers.SCMTrigger>
   </triggers>
-```
     
 4. Опубликуйте файл _Java\target\surefire eports\com.github.vitalliuss.helloci.AppTest.txt_ как артефакт.
 
