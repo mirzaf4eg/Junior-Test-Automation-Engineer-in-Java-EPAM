@@ -296,23 +296,23 @@
 	- Клонировать проект:
     [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
     
-    ```css
-	<scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.5">
-    	<configVersion>2</configVersion>
-    	<userRemoteConfigs>
-      		<hudson.plugins.git.UserRemoteConfig>
-        		<url>https://github.com/vitalliuss/helloci</url>
-      		</hudson.plugins.git.UserRemoteConfig>
-   		</userRemoteConfigs>
-    	<branches>
-     		<hudson.plugins.git.BranchSpec>
-        		<name>*/master</name>
-      	</hudson.plugins.git.BranchSpec>
-    	</branches>
-  		<doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
-    	<gitTool>2.18.4</gitTool>
-    	<submoduleCfg class="list"/>
-    	<extensions/>
+```html
+<scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.5">
+   <configVersion>2</configVersion>
+   <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+         <url>https://github.com/vitalliuss/helloci</url>
+      </hudson.plugins.git.UserRemoteConfig>
+   </userRemoteConfigs>
+   <branches>
+      <hudson.plugins.git.BranchSpec>
+         <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+   </branches>
+   <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+   <gitTool>2.18.4</gitTool>
+   <submoduleCfg class="list"/>
+   <extensions/>
   </scm>
 
     ```
