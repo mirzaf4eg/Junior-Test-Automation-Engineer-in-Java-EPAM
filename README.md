@@ -282,24 +282,41 @@
 
 1. Установите Jenkins.
 
+Место для конфига дженкинса
+
 2. Создать ноду и настроить сервер так, чтобы джоба выполнялась только на **slave** ноде.
 
-2.1. Ноду делаю на отдельном компьютере в общей сети:
-- разворачиваю на виртуальной машине centOS
-
+	    - Ноду делаю на отдельном компьютере в общей сети:
+		
 <img src="https://user-images.githubusercontent.com/66875374/98385946-a741f900-2060-11eb-8903-448d4cb09a17.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/66875374/98386053-cb9dd580-2060-11eb-9ffc-520c9b4cec02.png" width="45%"></img>
 
+		- Настраиваю Jenkins: Мето для конфига ноды
 
-
-
-
-
-2. Создайте задачу, которая будет делать следующее:
+3. Создайте задачу, которая будет делать следующее:
 	- Клонировать проект:
     [Тестовый проект](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task/hello-ci)
-    - Запускать тесты из проекта в директори Java с помощью цели mvn test.
     
-3. Настройте билд триггеры:
+    ```scss
+	<scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.5">
+    	<configVersion>2</configVersion>
+    	<userRemoteConfigs>
+      		<hudson.plugins.git.UserRemoteConfig>
+        		<url>https://github.com/vitalliuss/helloci</url>
+      		</hudson.plugins.git.UserRemoteConfig>
+   		</userRemoteConfigs>
+    	<branches>
+     		<hudson.plugins.git.BranchSpec>
+        		<name>*/master</name>
+      	</hudson.plugins.git.BranchSpec>
+    	</branches>
+  		<doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    	<gitTool>2.18.4</gitTool>
+    	<submoduleCfg class="list"/>
+    	<extensions/>
+  </scm>
+    ```
+    
+    - Запускать тесты из проекта в директори Java с помощью цели mvn test.
 	- Чтобы задача выполнялась раз в 5 минут;
     - Запуск тестов не позднее чем через 5 минут после коммита в git;
     - Каждый будний день в полночь.
