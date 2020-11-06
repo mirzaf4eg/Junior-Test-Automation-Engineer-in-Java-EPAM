@@ -313,9 +313,8 @@
    <gitTool>2.18.4</gitTool>
    <submoduleCfg class="list"/>
    <extensions/>
-  </scm>
-
-    ```
+</scm>
+```
     
     - Запускать тесты из проекта в директори Java с помощью цели mvn test.
 	- Чтобы задача выполнялась раз в 5 минут;
