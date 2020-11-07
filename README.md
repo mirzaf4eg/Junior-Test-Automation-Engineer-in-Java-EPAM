@@ -294,6 +294,10 @@
 
 [Файл конфигурации Node](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(node).xml)
 
+Структура каталогов на удаленной ноде:
+
+<img src="https://user-images.githubusercontent.com/66875374/98436454-832bf980-20ec-11eb-96c5-f017028b19f4.png" width="100%"></img> 
+
 3. Создайте задачу, которая будет делать следующее:
 
 Клонировать проект:
@@ -457,5 +461,9 @@ We are currently only accepting bug fixes for Gatsby v1. No new features will be
 Licensed under the [MIT License](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/LICENSE.txt).
 
 ## 💜 Thanks
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/66875374/98436488-b7071f00-20ec-11eb-8fc0-43ab2b93aee8.gif" width="30%"></img>
+</p>
 
 [Вернуться к содержанию](#содержимое-репозитория)
