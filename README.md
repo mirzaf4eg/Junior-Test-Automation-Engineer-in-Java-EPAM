@@ -40,7 +40,7 @@
 
 1. Создайте новый репозиторий на github.com и склонируйте его локально на свой компьютер.
     
-    ```
+    ```sh
     cd /d/EPAM/
 	git clone git@github.com:mirzaf4eg/git-demo.git
 	cd /d/EPAM/git-demo
@@ -49,7 +49,7 @@
      
 2. Создайте файл названием song.txt и поместите туда половину текста любимой песни.
     
-    ```
+    ```sh
 	echo "Come on, come on, turn the radio on" >> song.txt
 	echo "It's Friday night and I won't be long" >> song.txt
 	echo "Gotta do my hair, I put my make up on" >> song.txt
@@ -58,7 +58,7 @@
 
 3. Сделайте коммит с названием "add first half of my favorite song" и отправьте его на сервер.
 
-    ```
+    ```sh
     git add song.txt
 	git commit -m "add first half of my favorite song"
 	git push
@@ -67,7 +67,7 @@
 4. Убедитесь что на github есть файл song.txt с текстом песни. 
 5. Используя веб-интерфейс гитхаба добавьте вторую половину текста песни и сделайте коммит с названием "finish my song".
 
-	```
+	```sh
     # edit song.txt in remout git repo
 	# >> Till I hit the dance floor
 	# >> Hit the dance floor!
@@ -81,7 +81,7 @@
 6. В локальном репозитории сделайте pull и убедитесь что коммит, который вы создали на github, подтянулся и у вас полный текст песни.
 7. Добавьте в проект файл .gitignore и настройте так чтобы скрыть файлы с расширением .db, .log и директории с названиями target или bin.
 
-	```
+	```sh
     echo "*.db" >> .gitignore
 	echo "*.log" >> .gitignore
 	echo "/target" >> .gitignore
@@ -90,7 +90,7 @@
     
 8. Создайте ветку feature и добавьте в неё два коммита.
 
-	```
+	```sh
     git checkout -b feature
 	echo "Baby I don't need dollar bills to have fun tonight (I love cheap thrills)" >> song.txt
 	echo "Baby I don't need dollar bills to have fun tonight (I love cheap thrills)" >> song.txt
@@ -107,36 +107,32 @@
     
 9. Смержите ветку feature в master.
 
-	```
+	```sh
     git checkout master
 	git merge feature
     ```
     
 10. Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
 	>  _The ship glides gently on the waves_
+    _As day turns into night_
     
-	> _As day turns into night_
-    
-
-	```
+	```sh
     git checkout feature
 	echo "The ship glides gently on the waves" >> arrows.txt
 	echo "As day turns into night" >> arrows.txt
     ```
-
 11. Выполните коммит.
     
-	```
+	```sh
     git add arrows.txt
 	git commit -m "feature commit post added arrow.txt"
     ```
     
 12. Перейдите в master. Создайте там файл arrows.txt и добавьте следующий текст:
 	> _One thousand burning arrows_
+    _Fill the starlit sky_
     
-	> _Fill the starlit sky_
-    
-	```
+	```sh
     git checkout master
 	echo "One thousand burning arrows" >> arrows.txt
 	echo "Fill the starlit sky" >> arrows.txt
@@ -144,14 +140,14 @@
     
 13. Выполните коммит.
 
-	```
+	```sh
     git add arrows.txt
 	git commit -m "master commit post added arrow.txt"
     ```
 	
 14. Смержите feature в master решив конфликт: сохраните все 4 строки в файле arrows.txt в порядке их добавления в пунктах 4 и 5.
 
-    ```
+    ```sh
     git merge feature
 	# edit arrows.txt in github.com
 	vi arrows.txt
@@ -161,10 +157,9 @@
 
 15. Создайте ветку storm и добавьте коммит в файл storm.txt:
 	> _Twenty ships with Norsemen braves_
-    
-	> _Riding the northern wind_
+    _Riding the northern wind_
 
-	```
+	```sh
     git checkout -b storm
 	echo "Twenty ships with Norsemen braves" >> storm.txt
 	echo "Riding the northern wind" >> storm.txt
@@ -174,10 +169,9 @@
     
 16. Добавьте еще 2 строки в storm.txt и сделайте еще один коммит:
     > _They left their shores at early dawn_
+    _As a red sun was rising in the east_
     
-	> _As a red sun was rising in the east_
-    
-	```
+	```sh
     echo "They left their shores at early dawn" >> storm.txt
 	echo "As a red sun was rising in the east" >> storm.txt
 	git add storm.txt
@@ -186,14 +180,11 @@
     
 17. Вернитесь в master и создайте файл pursuit.txt с текстом ниже:
 	> _The warming sun returns again_
-    
-	> _And melts away the snow_
-    
-	> _The sea is freed from icy chains_
-    
-	> _Winter is letting go_
+     _And melts away the snow_
+     _The sea is freed from icy chains_
+     _Winter is letting go_
 
-	```
+	```sh
     git checkout master
 	echo "The warming sun returns again" >> pursuit.txt
 	echo "And melts away the snow" >> pursuit.txt
@@ -203,48 +194,48 @@
 
 18. Выполните коммит.
     
-    ```
+    ```sh
     git add pursuit.txt
 	git commit -m "commit added pursuit.txt"
     ```
     
 19. Отметьте коммит тегом session1 и перейдите в ветку storm.
 
-	```
+	```sh
     git tag session1
 	git checkout storm
     ```
     
 20. Сделайте rebase ветки storm так чтобы она содержала последний коммит из мастера.
 
-	```
+	```sh
     git rebase master
     ```
 
 21. Сделайте push вашего репозитория и убедитесь, что все коммиты есть на github.
 22. Сделайте новый репозиторий на github.
 
-	```
+	```sh
     # creat repo "git-demo-back" in github.com
     ```
     [git-demo-back](https://github.com/mirzaf4eg/git-demo-back.git)
     
 23. Смените remote в локальном репозитории так, чтобы fetch и push шел на новый репозиторий который был создан в предыдущем шаге.
 
-	```
+	```sh
     git remote remove origin
 	git remote add origin git@github.com:mirzaf4eg/git-demo-back.git
     ```
     
 24. Сделайте push и убедитесь, что второй репозиторий на гитхабе выглядит так же, как и первый. 
 	
-    ```
+    ```sh
     git push --set-upstream origin master
     ```
     
 25. Верните настройки remote в исходное состояние: пул и пуш первого локального репозитория ведет в один удаленный репозиторий на гитхабе.
 
-	```
+	```sh
     git remote remove origin
 	git remote add origin git@github.com:mirzaf4eg/git-demo.git
 	git push --set-upstream origin master
@@ -423,6 +414,11 @@ H 0 * * 1-5</spec>
 - [Optional Task Second](#optional-task-second)
 
 ### Main Task
+[1. Приветствовать любого пользователя при вводе его имени через командную строку.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFirst.java)
+[2. Отобразить в окне консоли аргументы командной строки в обратном порядке.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskSecond.java)
+[3. Вывести заданное количество случайных чисел с переходом и без перехода на новую строку.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskThird.java)
+[4. Ввести целые числа как аргументы командной строки, подсчитать их сумму (произведение) и вывести результат на консоль.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFourth.java)
+[5. Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу. Осуществить проверку корректности ввода чисел.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFive.java)
 
 ### Optional Task First
 
