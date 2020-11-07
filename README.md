@@ -292,6 +292,7 @@
 		
 <img src="https://user-images.githubusercontent.com/66875374/98385946-a741f900-2060-11eb-8903-448d4cb09a17.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/66875374/98386053-cb9dd580-2060-11eb-9ffc-520c9b4cec02.png" width="45%"></img>
 
+
    [Файл конфигурации Node](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(node).xml)
 
 3. Создайте задачу, которая будет делать следующее:
