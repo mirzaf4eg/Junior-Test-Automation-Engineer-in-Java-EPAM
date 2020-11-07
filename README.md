@@ -114,7 +114,7 @@
     
 10. Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
 	>  _The ship glides gently on the waves_
-    _As day turns into night_
+    > _As day turns into night_
     
 	```sh
     git checkout feature
@@ -415,9 +415,13 @@ H 0 * * 1-5</spec>
 
 ### Main Task
 [1. Приветствовать любого пользователя при вводе его имени через командную строку.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFirst.java)
+
 [2. Отобразить в окне консоли аргументы командной строки в обратном порядке.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskSecond.java)
+
 [3. Вывести заданное количество случайных чисел с переходом и без перехода на новую строку.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskThird.java)
+
 [4. Ввести целые числа как аргументы командной строки, подсчитать их сумму (произведение) и вывести результат на консоль.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFourth.java)
+
 [5. Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу. Осуществить проверку корректности ввода чисел.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFive.java)
 
 ### Optional Task First
