@@ -498,6 +498,8 @@ c) список автомобилей заданного года выпуск�
 ## Clean Code
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/66875374/98228421-9ebac700-1f69-11eb-9f96-242d350ddd4d.jpg" width="15%"></img>
 
+Необходимо исправить все ошибки в проекте aircompany и **постарайться** отыскать и исправить все нарушения практик написания чистого кода.
+
 [package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/CleanCode)
 
 - [Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Main.java)
@@ -514,6 +516,25 @@ c) список автомобилей заданного года выпуск�
 - [Optional Task](#optional-task)
 
 ### Main Task
+
+Создать консольное приложение, удовлетворяющее следующим требованиям:
+- Каждый класс должен иметь отражающее смысл название и информативный состав;
+- Наследование должно применяться только тогда, когда это имеет смысл;
+- При кодировании должны быть использованы соглашения об оформлении кода [java code convention](https://google.github.io/styleguide/javaguide.html#s5.3-camel-case);
+- Классы должны быть грамотно разложены по пакетам;
+- Консольное меню должно быть минимальным;
+- Для хранения параметров инициализации можно использовать файлы.
+             
+      9. Авиакомпания. 
+      Определить иерархию самолетов - Создать авиакомпанию - Посчитать общую вместимость и грузоподъемность - Провести сортировку самолетов компании по дальности полета - Найти самолет в компании, соответствующий заданному диапазону параметров потребления горючего.
+
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask)
+
+[Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/MainAir.java)
+[Work class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Mirzaf4egAirLines.java)
+[Сonstructors](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes) - [Plane](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes/Plane.java) - [Passenger](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes/PassengerPlane.java) - [Military](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes/MilitaryPlane.java) - [Cargo](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes/CargoPlane.java)
+[Classifications](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification) - [AlongTheLine](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/AlongTheLine.java) - [Assignment](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/Assignment.java) - [Brand](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/Brand.java) - [MilitaryType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/MilitaryType.java) - [ServiceLevel](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/ServiceLevel.java)
+
 
 ### Optional Task
 
