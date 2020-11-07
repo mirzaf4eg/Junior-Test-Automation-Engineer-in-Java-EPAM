@@ -282,18 +282,17 @@
 
 1. Установите Jenkins.
 
-   [Файл конфигурации Jenkins](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(jenkins).xml)
+[Файл конфигурации Jenkins](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(jenkins).xml)
 
 2. Создать ноду и настроить сервер так, чтобы джоба выполнялась только на **slave** ноде.
 
-   [Файл конфигурации жобы основного задания](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(jobTask).xml)
+[Файл конфигурации жобы основного задания](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(jobTask).xml)
 
    Использую виртуальную машину с CentOS:
 		
 <img src="https://user-images.githubusercontent.com/66875374/98385946-a741f900-2060-11eb-8903-448d4cb09a17.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/66875374/98386053-cb9dd580-2060-11eb-9ffc-520c9b4cec02.png" width="45%"></img>
 
-
-   [Файл конфигурации Node](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(node).xml)
+[Файл конфигурации Node](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(node).xml)
 
 3. Создайте задачу, которая будет делать следующее:
 
