@@ -114,6 +114,7 @@
     
 10. Вернитесь в feature и создайте файл arrows.txt cледующего содержания:
 	>  _The ship glides gently on the waves_
+
     > _As day turns into night_
     
 	```sh
@@ -130,7 +131,8 @@
     
 12. Перейдите в master. Создайте там файл arrows.txt и добавьте следующий текст:
 	> _One thousand burning arrows_
-    _Fill the starlit sky_
+
+    > _Fill the starlit sky_
     
 	```sh
     git checkout master
@@ -157,7 +159,8 @@
 
 15. Создайте ветку storm и добавьте коммит в файл storm.txt:
 	> _Twenty ships with Norsemen braves_
-    _Riding the northern wind_
+    
+    > _Riding the northern wind_
 
 	```sh
     git checkout -b storm
@@ -169,7 +172,8 @@
     
 16. Добавьте еще 2 строки в storm.txt и сделайте еще один коммит:
     > _They left their shores at early dawn_
-    _As a red sun was rising in the east_
+
+    > _As a red sun was rising in the east_
     
 	```sh
     echo "They left their shores at early dawn" >> storm.txt
@@ -180,9 +184,12 @@
     
 17. Вернитесь в master и создайте файл pursuit.txt с текстом ниже:
 	> _The warming sun returns again_
-     _And melts away the snow_
-     _The sea is freed from icy chains_
-     _Winter is letting go_
+
+    > _And melts away the snow_
+    
+    > _The sea is freed from icy chains_
+    
+    > _Winter is letting go_
 
 	```sh
     git checkout master
@@ -414,6 +421,8 @@ H 0 * * 1-5</spec>
 - [Optional Task Second](#optional-task-second)
 
 ### Main Task
+Реализовать следующие программы:
+
 [1. Приветствовать любого пользователя при вводе его имени через командную строку.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFirst.java)
 
 [2. Отобразить в окне консоли аргументы командной строки в обратном порядке.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskSecond.java)
@@ -425,18 +434,64 @@ H 0 * * 1-5</spec>
 [5. Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу. Осуществить проверку корректности ввода чисел.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFive.java)
 
 ### Optional Task First
+Ввести n чисел с консоли.
 
-This repository is a [monorepo](https://trunkbaseddevelopment.com/monorepos/) managed using [Lerna](https://github.com/lerna/lerna). This means there are [multiple packages](/packages) managed in this codebase, even though we publish them to NPM as separate packages.
+[Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/Main.java)
+
+[Service class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/OptionalTaskFirst.java)
+
+[1. Найти самое короткое и самое длинное число. Вывести найденные числа и их длину.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/TaskFirst.java)
+
+[2. Вывести числа в порядке возрастания (убывания) значений их длины.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/TaskSecond.java)
+
+[3. Вывести на консоль те числа, длина которых меньше (больше) средней длины по всем числам, а также длину.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/TaskThird.java)
+
+[4. Найти число, в котором количество различных цифр минимально. Если таких чисел несколько, найти первое из них.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/TaskFourth.java)
+
+[5. Найти количество чисел, содержащих только четные цифры, а среди оставшихся — количество чисел с равным числом четных и нечетных цифр.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/TaskFive.java)
+
+[6. Найти число, цифры в котором идут в строгом порядке возрастания. Если таких чисел несколько, найти первое из них.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/TaskSix.java)
+
+[7. Найти число, состоящее только из различных цифр. Если таких чисел несколько, найти первое из них.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/TaskSeven.java)
 
 ### Optional Task Second
+Ввести с консоли n - размерность матрицы a [n] [n]. Задать значения элементов матрицы в интервале значений от -M до M с помощью генератора случайных чисел (класс Random).
 
-We are currently only accepting bug fixes for Gatsby v1. No new features will be accepted.
+[Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskSecond/Main.java)
+
+[Service class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskSecond/OptionalTaskSecond.java)
+
+[1. Упорядочить строки (столбцы) матрицы в порядке возрастания значений элементов k-го столбца (строки).](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskSecond/TaskFirst.java)
+
+[2. Найти и вывести наибольшее число возрастающих (убывающих) элементов матрицы, идущих подряд.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskSecond/TaskSecond.java)
+
+[3. Найти сумму элементов матрицы, расположенных между первым и вторым положительными элементами каждой строки.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskSecond/TaskThird.java)
+
+[4. Найти максимальный элемент в матрице и удалить из матрицы все строки и столбцы, его содержащие.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskSecond/TaskFour.java)
 
 [Вернуться к содержанию](#содержимое-репозитория)
 
 ## Java Classes
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
+Cоздать классы, определить конструкторы и методы _setТип()_, _getТип()_, _toString()_. Определить дополнительно методы в классе, создающем массив объектов. Задать критерий выбора данных и вывести эти данные на консоль. В каждом классе, обладающем информацией, должно быть объявлено несколько конструкторов.
+
+    8. Car: id, Марка, Модель, Год выпуска, Цвет, Цена, Регистрационный номер.
+> Создать массив объектов. Вывести:
+a) список автомобилей заданной марки;
+b) список автомобилей заданной модели, которые эксплуатируются больше n лет;
+c) список автомобилей заданного года выпуска, цена которых больше указанной.
+
+[pakcage](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses)
+
+ - [Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/MainAuto.java)
+ - [Work class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Mirzaf4egAutoPark.java)
+ - [Сonstructor](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Cars/Car.java)
+ - [Specifications](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Specifications)
+        - [Brand](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Specifications/Brand.java)
+        - [CarColor](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Specifications/CarColor.java)
+        - [CarType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Specifications/CarType.java)
+        - [EngineType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Specifications/EngineType.java)
 [Вернуться к содержанию](#содержимое-репозитория)
 
 ## Clean Code
