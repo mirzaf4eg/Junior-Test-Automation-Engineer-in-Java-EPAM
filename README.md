@@ -416,12 +416,16 @@ H 0 * * 1-5</spec>
 ## Java Fundamentals
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img>
 
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaFund)
+
 - [Main Task](#main-task)
 - [Optional Task First](#optional-task-first)
 - [Optional Task Second](#optional-task-second)
 
 ### Main Task
 Реализовать следующие программы:
+
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask)
 
 [1. Приветствовать любого пользователя при вводе его имени через командную строку.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/MainTask/TaskFirst.java)
 
@@ -435,6 +439,8 @@ H 0 * * 1-5</spec>
 
 ### Optional Task First
 Ввести n чисел с консоли.
+
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst)
 
 [Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskFirst/Main.java)
 
@@ -456,6 +462,8 @@ H 0 * * 1-5</spec>
 
 ### Optional Task Second
 Ввести с консоли n - размерность матрицы a [n] [n]. Задать значения элементов матрицы в интервале значений от -M до M с помощью генератора случайных чисел (класс Random).
+
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskSecond)
 
 [Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaFund/OptionalTaskSecond/Main.java)
 
@@ -542,6 +550,17 @@ Cоздать классы, определить конструкторы и м�
 - [Classifications](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification) - [AlongTheLine](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/AlongTheLine.java) - [Assignment](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/Assignment.java) - [Brand](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/Brand.java) - [MilitaryType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/MilitaryType.java) - [ServiceLevel](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/ServiceLevel.java)
 
 ### Optional Task
+
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask)
+
+[1. Ввести строки из файла, записать в список. Вывести строки в файл в обратном порядке.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskFirst.java)
+[2. Ввести число, занести его цифры в стек. Вывести число, у которого цифры идут в обратном порядке.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskSecond.java)
+[3. Создать список из элементов каталога и его подкаталогов.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskThird.java)
+[4. Занести стихотворение в список. Провести сортировку по возрастанию длин строк.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskFour.java)
+[5. Не используя вспомогательных объектов, переставить отрицательные элементы данного списка в конец, а положительные — в начало списка.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskFive.java)
+[6. Ввести строки из файла, записать в список ArrayList. Выполнить сортировку строк, используя метод sort() из класса Collections.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskSix.java)
+[7. Задана строка, состоящая из символов «(», «)», «[», «]», «{», «}». Проверить правильность расстановки скобок. Использовать стек.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskSeven.java)
+[8. Задан файл с текстом на английском языке. Выделить все различные слова. Слова, отличающиеся только регистром букв, считать одинаковыми. Использовать класс HashSet.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskEighth.java)
 
 [Вернуться к содержанию](#содержимое-репозитория)
 
