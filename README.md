@@ -536,13 +536,9 @@ Cоздать классы, определить конструкторы и м�
 ```
 
 [package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask)
-
 - [Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/MainAir.java)
-
 - [Work class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Mirzaf4egAirLines.java)
-
 - [Сonstructors](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes) - [Plane](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes/Plane.java) - [Passenger](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes/PassengerPlane.java) - [Military](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes/MilitaryPlane.java) - [Cargo](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Planes/CargoPlane.java)
-
 - [Classifications](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification) - [AlongTheLine](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/AlongTheLine.java) - [Assignment](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/Assignment.java) - [Brand](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/Brand.java) - [MilitaryType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/MilitaryType.java) - [ServiceLevel](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsMainTask/Classification/ServiceLevel.java)
 
 ### Optional Task
