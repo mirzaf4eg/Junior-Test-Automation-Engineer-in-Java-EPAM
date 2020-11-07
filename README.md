@@ -482,7 +482,7 @@ a) список автомобилей заданной марки;
 b) список автомобилей заданной модели, которые эксплуатируются больше n лет;
 c) список автомобилей заданного года выпуска, цена которых больше указанной.
 
-[pakcage](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses)
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses)
 
  - [Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/MainAuto.java)
  - [Work class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Mirzaf4egAutoPark.java)
@@ -492,10 +492,18 @@ c) список автомобилей заданного года выпуск�
         - [CarColor](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Specifications/CarColor.java)
         - [CarType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Specifications/CarType.java)
         - [EngineType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaClasses/Specifications/EngineType.java)
+        
 [Вернуться к содержанию](#содержимое-репозитория)
 
 ## Clean Code
 <img src="https://user-images.githubusercontent.com/66875374/98227805-ca897d00-1f68-11eb-8269-31d7be0f9a2e.jpg" width="15%"></img> <img src="https://user-images.githubusercontent.com/66875374/98228421-9ebac700-1f69-11eb-9f96-242d350ddd4d.jpg" width="15%"></img>
+
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/CleanCode)
+
+- [Main class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Main.java)
+- [Work class](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Airport.java)
+- [Сonstructors](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Planes) - [Plane](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Planes/Plane.java) - [Passenger](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Planes/PassengerPlane.java) - [Military](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Planes/MilitaryPlane.java) - [Experimental](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Planes/ExperimentalPlane.java)
+- [Classifications](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Classifications) - [ExperementalType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Classifications/ExperimentalType.java) - [MilitaryType](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Classifications/MilitaryType.java) - [SecretLevel](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/CleanCode/Classifications/SecretLevel.java)
 
 [Вернуться к содержанию](#содержимое-репозитория)
 
