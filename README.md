@@ -554,13 +554,21 @@ Cоздать классы, определить конструкторы и м�
 [package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask)
 
 [1. Ввести строки из файла, записать в список. Вывести строки в файл в обратном порядке.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskFirst.java)
+
 [2. Ввести число, занести его цифры в стек. Вывести число, у которого цифры идут в обратном порядке.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskSecond.java)
+
 [3. Создать список из элементов каталога и его подкаталогов.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskThird.java)
+
 [4. Занести стихотворение в список. Провести сортировку по возрастанию длин строк.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskFour.java)
+
 [5. Не используя вспомогательных объектов, переставить отрицательные элементы данного списка в конец, а положительные — в начало списка.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskFive.java)
+
 [6. Ввести строки из файла, записать в список ArrayList. Выполнить сортировку строк, используя метод sort() из класса Collections.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskSix.java)
+
 [7. Задана строка, состоящая из символов «(», «)», «[», «]», «{», «}». Проверить правильность расстановки скобок. Использовать стек.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskSeven.java)
+
 [8. Задан файл с текстом на английском языке. Выделить все различные слова. Слова, отличающиеся только регистром букв, считать одинаковыми. Использовать класс HashSet.](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/mirzaf4eg-task-part-one/src/main/java/JavaCollectionsOptionalTask/TaskEighth.java)
+
 
 [Вернуться к содержанию](#содержимое-репозитория)
 
