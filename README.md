@@ -282,17 +282,17 @@
 
 1. Установите Jenkins.
 
-   Файл конфига дженкинса
+   [Файл конфигурации Jenkins](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(jenkins).xml)
 
 2. Создать ноду и настроить сервер так, чтобы джоба выполнялась только на **slave** ноде.
 
-   Файл конфига жобы
+   [Файл конфигурации жобы основного задания](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(jobTask).xml)
 
    Использую виртуальную машину с CentOS:
 		
 <img src="https://user-images.githubusercontent.com/66875374/98385946-a741f900-2060-11eb-8903-448d4cb09a17.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/66875374/98386053-cb9dd580-2060-11eb-9ffc-520c9b4cec02.png" width="45%"></img>
 
-   Настраиваю Jenkins: Файл конфига ноды
+   [Файл конфигурации Node](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(node).xml)
 
 3. Создайте задачу, которая будет делать следующее:
 
@@ -366,7 +366,7 @@ H 0 * * 1-5</spec>
 
 6. Сменить порт сервера на **8081**.
 
-Фал настроек
+[Фал настроек Jenkins](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/jenkins(setting).xml)
 
 7. Настроить **Job Config History** и **thinBackup**.
 
@@ -401,13 +401,13 @@ H 0 * * 1-5</spec>
 
 8. Создать пользователя **user** и дать ему права на просмотр джоб Jenkins, но без возможности записи или смены настроек.
 
-конфиг юзера
+[Файл конфигурации user](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/config(user).xml)
 
-<img src="https://user-images.githubusercontent.com/66875374/98414742-f9007880-208c-11eb-9dad-3ef0a03121dc.png" width="15%"></img> 
+<img src="https://user-images.githubusercontent.com/66875374/98414742-f9007880-208c-11eb-9dad-3ef0a03121dc.png" width="100%"></img> 
 
-10. Создать параметризованную джобу **HelloUser**, которая будет спрашивать в качестве параметра имя пользователя (username) и писать в консоль "Hello, username!".
+9. Создать параметризованную джобу **HelloUser**, которая будет спрашивать в качестве параметра имя пользователя (username) и писать в консоль "Hello, username!".
 
-Файл конфига жобы
+[Файл конфигурации жобы](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/jenkins-task/jenkins(HelloUser).xml)
 
 [Вернуться к содержанию](#содержимое-репозитория)
 
