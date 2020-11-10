@@ -271,6 +271,8 @@
 
 <img src="https://user-images.githubusercontent.com/66875374/98234327-57383900-1f71-11eb-99e1-0412c7a78b2f.png" width="100%"></img>
 
+[pom.xml тестового проекта](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/maven-task/pom(hello-ci).xml)
+
 [Вернуться к содержанию](#содержимое-репозитория)
 
 ## Continuous Integration with Jenkins
