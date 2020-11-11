@@ -86,8 +86,8 @@
 	```sh
     echo "*.db" >> .gitignore
 	echo "*.log" >> .gitignore
-	echo "target/" >> .gitignore
-	echo "bin/" >> .gitignore
+	echo "/target" >> .gitignore
+	echo "/bin" >> .gitignore
     ```
     
 8. Создайте ветку feature и добавьте в неё два коммита.
