@@ -20,8 +20,8 @@ git pull
 
 echo "*.db" >> .gitignore
 echo "*.log" >> .gitignore
-echo "/target" >> .gitignore
-echo "/bin" >> .gitignore
+echo "target/" >> .gitignore
+echo "bin/" >> .gitignore
 git checkout -b feature
 echo "Baby I don't need dollar bills to have fun tonight (I love cheap thrills)" >> song.txt
 echo "Baby I don't need dollar bills to have fun tonight (I love cheap thrills)" >> song.txt
