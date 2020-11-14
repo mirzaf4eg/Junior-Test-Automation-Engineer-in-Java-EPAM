@@ -36,6 +36,8 @@
 
 **Nightmare!**
 
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/git-task)
+
 [Файл с выполненным заданием: Git_Task_Nigtmare.txt](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/blob/master/git-task/Git_Task_Nigtmare.txt)
 
 1. Создайте новый репозиторий на github.com и склонируйте его локально на свой компьютер.
@@ -253,6 +255,8 @@
 ## Maven build tool
 <img src="https://user-images.githubusercontent.com/66875374/98226436-14716380-1f67-11eb-94e3-2dc3b3d3fad2.png" width="15%"></img>
 
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/maven-task)
+
 1. Установите мавен убедитесь, что он работает.
 
 <img src="https://user-images.githubusercontent.com/66875374/98232363-a03abe00-1f6e-11eb-892b-03ae83133584.png" width="100%"></img>
@@ -279,6 +283,8 @@
 <img src="https://user-images.githubusercontent.com/66875374/98227492-6ff02100-1f68-11eb-8d21-f6a1c0a8a52d.jpg" width="15%"></img>
 
 **Nightmare!**
+
+[package](https://github.com/mirzaf4eg/Junior-Test-Automation-Engineer-in-Java-EPAM/tree/master/jenkins-task)
 
 1. Установите Jenkins.
 
