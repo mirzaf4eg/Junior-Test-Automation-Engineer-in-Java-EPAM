@@ -26,7 +26,7 @@ import java.util.List;
  *  c) список автомобилей заданного года выпуска, цена которых больше указанной.
  */
 
-public class MainAuto {
+public class Main {
   static List<Car> cars = Arrays.asList(
     new Car(Brand.SUBARU, "Legacy", 2005, CarColor.BLACK, 5000, "7076HM7", CarType.PASSENGER, EngineType.PETROL),
     new Car(Brand.BMW, "1-Series", 2007, CarColor.BLUE, 4000, "1315IP7", CarType.PASSENGER, EngineType.DIESEL),

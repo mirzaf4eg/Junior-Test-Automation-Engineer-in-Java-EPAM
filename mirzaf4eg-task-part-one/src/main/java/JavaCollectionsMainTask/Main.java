@@ -30,7 +30,7 @@ import java.util.List;
  * Найти самолет в компании, соответствующий заданному диапазону параметров потребления горючего.
  */
 
-public class MainAir {
+public class Main {
   static List<Plane> planes = Arrays.asList(
     new PassengerPlane(Brand.AIRBUS, "A320 100", "EW50010", Assignment.PASSENGER, AlongTheLine.INTERNATIONAL, 870, 6150, 24210, 2700, ServiceLevel.PLANED, 150),
     new PassengerPlane(Brand.AIRBUS, "A380-800", "EW50011", Assignment.PASSENGER, AlongTheLine.INTERNATIONAL,850, 15000, 320000, 1400, ServiceLevel.CHARTER, 525),
