@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mirzaf4eg-task-part-one" />
+        <module name="mirzaf4eg-task-stage-one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mirzaf4eg-task-part-one" target="8" />
+      <module name="mirzaf4eg-task-stage-one" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
